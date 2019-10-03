@@ -1,0 +1,158 @@
+	<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>游哉旅游网站</title>
+    <meta name="description" content="Demo of Material design portfolio template"/>
+	  
+<!--    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;amp;lang=en" rel="stylesheet">-->
+    <link href="css/familyEn.css" rel="stylesheet">
+<!--	  字体等的css 不太重要-->
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+<!--	  <link href="css/icon.css" rel="stylesheet"> -->
+<!--	  这个不能弄成css文件 为什么？？？？-->
+<!--	  邮件成员等等的css-->
+	  
+<!--    <link href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" rel="stylesheet">-->
+    <link href="css/material.indigo-pink.min.css" rel="stylesheet">
+<!--	  总体界面的css,重要-->
+       
+    <link href="styles/main.css" rel="stylesheet">
+       
+    <link href="css/indexCss/bootstrap.css" rel="stylesheet">
+	<link href="css/indexCss/blog.css" rel="stylesheet">
+	<link href="css/indexCss/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	<link href="css/indexCss/self.css" rel="stylesheet">
+</head>
+
+<body id="top">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        
+<!--		浏览器头部 图标和标签栏 header -->
+    <header class="mdl-layout__header mdl-layout__header--waterfall site-header">
+        <div class="mdl-layout__header-row site-logo-row">
+<!--			用了main.css的site-logo,网站头图片-->
+			<span class="mdl-layout__title">
+            <div class="site-logo"></div>
+            <span class="site-description">游哉旅游网站</span></span>
+		  </div>
+          
+<!--			用了main.css的mdl-layout__header-row\site-navigation-row,网站头图片
+mdl-layout--large-screen-only可能是远程搞文字字体的-->  
+        <div class="mdl-layout__header-row site-navigation-row mdl-layout--large-screen-only">
+<!--			前一个用了main.css的,后一个是远程css的字体-->
+<!--			四个导航栏目 转到href的链接-->
+          <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+			  <a class="mdl-navigation__link" href="index.jsp">首页</a>
+			  <a class="mdl-navigation__link" href="travelLog.jsp">游记</a>
+			  <a class="mdl-navigation__link" href="http://www.ilovenpu.com/youzai/mokuai_2?tdsourcetag=s_pctim_aiomsg">论坛</a>
+			  <a class="mdl-navigation__link" href="../travelStrategy/b3_r1.jsp">旅游攻略</a>
+            </nav>
+        </div>
+        
+      </header>
+		
+<!--		左侧弹出菜单drawer，只在小屏的时候使用，可以修改 -->
+      <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+<!--		  前一个main 后一个远程字体-->
+        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+			<a class="mdl-navigation__link" href="index.jsp">首页</a>
+			<a class="mdl-navigation__link" href="travelLog.jsp">游记</a>
+			<a class="mdl-navigation__link" href="http://www.ilovenpu.com/youzai/mokuai_2?tdsourcetag=s_pctim_aiomsg">论坛</a>
+			<a class="mdl-navigation__link" href="../travelStrategy/b3_r1.jsp">旅游攻略</a>
+        </nav>
+          
+        <div class="MyCentericon">      <!-- 个人中心   -->
+            <div style="width:30px;height:30px;display: block;">
+               <a href="log_in.html">
+                	<img src="img/用户.png" style="width:30px; height:30px; display: block;">
+               </a>
+            </div>	
+        </div> 
+          
+        </div>
+		
+<!--		设置下拉跟随和隐藏导航栏-->
+      <main class="mdl-layout__content">  
+<!--		  ctrl+e查看对应的css！！！-->
+<div class="site-content">
+<!--			class="container" 这是一个容器大概是占屏幕宽度的80%,然后居中对齐 与Bootstrap有关-->
+    <div class="container">
+			  
+<!--      首页中央的图片轮播部分         -->
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+              
+	<div class="middle-main" style="width: 100%">
+		<div class="container-fluid" style="width: 100%">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="img/index_img1.jpg" alt="...">
+						<div class="carousel-caption">				
+							<h1 style="color: #000000">生活除了眼前的苟且还有诗和远方。</h1>
+							
+							<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/index_img2.jpg" alt="...">
+						<div class="carousel-caption">
+							<h1 style="color:#000000">人类的悲欢并不相通，我只觉得他们吵闹。</h1>
+							
+							<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/index_img3.jpg" alt="...">
+						<div class="carousel-caption">
+							<h1 style="color: #000000">与其感慨路难行，不如马上出发！</h1>
+							
+							<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+						</div>
+					</div>
+
+				</div>
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+              
+			  
+
+
+<!--			  评论-->
+</div>
+</div>
+        <footer class="mdl-mini-footer">
+          <div class="footer-container">
+            <div class="mdl-logo">&copy; Unitiled. More Templates <a href="index.jsp" target="_blank" title="首页">游哉旅游网站</a> - Collect from <a href="index.jsp" title="网页模板" target="_blank">游哉</a></div>
+            <ul class="mdl-mini-footer__link-list">
+              <li><a href="#">Privacy & Terms</a></li>
+            </ul>
+          </div>
+        </footer>
+      </main>
+      <script src="https://code.getmdl.io/1.3.0/material.min.js" defer></script>
+    </div>
+  </body>
+</html>

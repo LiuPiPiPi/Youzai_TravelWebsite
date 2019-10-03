@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>游哉网站注册</title>
+    <meta name="description" content="Demo of Material design portfolio template"/>
+    <link href="css/familyEn.css" rel="stylesheet">
+<!--	  字体等的css 不太重要-->
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+	  
+    <link href="css/material.indigo-pink.min.css" rel="stylesheet">
+    <link href="css/search_box.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+       
+       <style>
+        .p{
+            color:red;
+            margin-left:20px;
+            display:inline-block;
+        }
+        .c{
+            color:red;
+            margin-left:4px;
+            display:inline-block;
+        }
+        .l{
+            font-size:18px;
+        }
+        .d{
+            height:35px;
+            width:300px;
+            display:inline;
+        }
+        .i{
+            height:30px;
+            width:300px;
+        }
+
+
+    </style>
+       
+</head>
+
+<body id="top">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        
+<!--		浏览器头部 图标和标签栏 header -->
+        <header class="mdl-layout__header mdl-layout__header--waterfall site-header">
+            <div class="mdl-layout__header-row site-logo-row">
+            <!--			用了main.css的site-logo,网站头图片-->
+                <span class="mdl-layout__title">
+                <div class="site-logo"></div>
+                <span class="site-description">游哉旅游网站</span></span>
+                </div>
+
+                <!--			用了main.css的mdl-layout__header-row\site-navigation-row,网站头图片
+                mdl-layout--large-screen-only可能是远程搞文字字体的-->  
+                <div class="mdl-layout__header-row site-navigation-row mdl-layout--large-screen-only">
+                <!--			前一个用了main.css的,后一个是远程css的字体-->
+                <!--			四个导航栏目 转到href的链接-->
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"></nav>
+            </div>
+
+        </header>
+		
+     
+		
+<!--		设置下拉跟随和隐藏导航栏-->
+        <main class="mdl-layout__content">  
+        <!--		  ctrl+e查看对应的css！！！-->
+        
+        <!--			class="container" 这是一个容器大概是占屏幕宽度的80%,然后居中对齐 与Bootstrap有关-->
+<div   style="background: rgba(255,252,217,0.80); height: 800px; width: 2000px; " >
+                
+                
+                    
+    <div style="height:10px;"></div>
+    <form enctype="multipart/form-data" action="register.jsp">
+        <div style="width:500px;margin-left: 500px;">
+            <div style="font-size:28px;margin-left:150px">注册新用户</div>
+            <br/><br/>
+            <span class="p">*</span>
+            <label for="username" class="l">用户名:</label>
+            <div style="height:35px;width:300px;position:relative;display:inline;">
+                <input id="username" type="text" style="height:30px;width:250px;padding-right:50px;">
+                <span style="position:absolute;right:18px;top:2px;background-image:url(user.ico);height:16px;width:16px;display:inline-block;" ></span>
+            </div>
+            <br/><br/>
+            <span class="p">*</span>
+            <label for="phonenumber" class="l">手机号:</label>
+            <div  class="d">
+                <input id="phonenumber" type="text" class="i">
+            </div>
+            <br/><br/>
+            <span class="c">*</span>
+            <label for="login_password" class="l">登录密码:</label>
+            <div  class="d">
+                <input id="login_password" type="text" class="i">
+            </div>
+            <br/><br/>
+            <span class="c">*</span>
+            <label for="confirm_password" class="l">确认密码:</label>
+            <div  class="d">
+                <input id="confirm_password" type="text" class="i">
+            </div>
+            <br/><br/>
+            <input type="checkbox" name="agree" style="margin-left:100px; display:inline-block;" value="1"/>
+            <span style="font-size:13px;">我已阅读并同意《用户注册协议》</span>
+            <br/><br/><br/>
+            <input type="submit" value="同意以上协议并注册" style="margin-left:125px;height:45px;width:250px;background-color:SkyBlue ;display:inline-block;font-size:15px;"/>
+        </div>
+         </form>
+            
+                
+            
+    </div>
+        
+            
+            
+            <footer class="mdl-mini-footer">
+                <div class="footer-container"> 
+                    <div class="mdl-logo">&copy; Unitiled. More Templates <a href="index.html" target="_blank" title="模板之家">游哉旅游网站</a> - Collect from <a href="index.html" title="网页模板" target="_blank">游哉</a></div>
+                    <ul class="mdl-mini-footer__link-list">
+                      <li><a href="#">Privacy & Terms</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+        <script src="https://code.getmdl.io/1.3.0/material.min.js" defer></script>
+    </div>
+</body>
+</html>

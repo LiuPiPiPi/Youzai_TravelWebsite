@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8">
+<head>
+    <title>游记编辑器</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+	<link href="css/eidtorCss/froala_editor.min.css" rel="stylesheet" type="text/css">
+
+    <style>
+        body {
+            text-align: center;
+            background-image: url("Editor/img/text_background.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        section {
+            width: 80%;
+            margin: auto;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+  <section id="editor" style="margin-top: 30px;width:800px">
+      <div id="edit" >
+        <div id="id">
+	        <h1>请在此编辑</h1>
+	        <p>以下是你的游记内容..（可插入图片和视频）</p>
+	      </div>
+      </div>
+      
+      <div id="tishi">
+    	<form action="transmit.jsp" method="post" >
+        <input type="text" name="username" id="tempInput" style="display:none"><br>
+        <input type="submit" onClick="httpPost()" value="保存提交">
+ 		</form>
+ 	  </div>
+  </section>
+	
+<div style="width:50px;height: 50px;position: absolute;right:10%;top:50px">
+	<a href="Editor/editMap.html" style="color: black;font-size:200; text-decoration: none" >定位
+	<img src="Editor/img/map.png" style="width:50px;height:50px" alt="">
+	</a>
+	<a href="travelLog.html">
+	<input type="button" style="border-bottom:solid;margin-top:20px;width:100px;height:50px;" value="返回游记页" >
+	</a>
+</div>
+	
+   <script>
+        function httpPost(){
+            var name = document.getElementById("id").innerHTML;
+            var temp=document.getElementById("tempInput");
+           // $("#tishi").css("display","block"); 设置可见
+            temp.value=name;
+           // alert(name);
+           //这一步是把innerHTML 保存到隐藏的 input  在把imput的内容post到后端 
+        }
+   </script>
+
+  <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+  <script src="Editor/js/froala_editor.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="../js/froala_editor_ie8.min.js"></script>
+  <![endif]-->
+  <script src="Editor/js/plugins/tables.min.js"></script>
+  <script src="Editor/js/plugins/lists.min.js"></script>
+  <script src="Editor/js/plugins/colors.min.js"></script>
+  <script src="Editor/js/plugins/media_manager.min.js"></script>
+  <script src="Editor/js/plugins/font_family.min.js"></script>
+  <script src="Editor/js/plugins/font_size.min.js"></script>
+  <script src="Editor/js/plugins/block_styles.min.js"></script>
+  <script src="Editor/js/plugins/video.min.js"></script>
+
+  <script>
+      $(function(){
+          $('#edit').editable({inlineMode: false, alwaysBlank: true})
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿*{margin:0;padding:0}
+html, body {font-family: "Microsoft Yahei", Verdana, sans-serif;}
+ul, li{list-style: none;}
+address, cite, dfn, em, var {font-style: normal;}
+
+.banner{position: relative;overflow: auto;text-align: center;width:640px;margin:0 auto}
+.banner .dots{position:absolute;left:0;right:0;bottom:70px;z-index:3;}
+.banner .dots li{display:inline-block;width:10px;height:10px;margin:0 4px;text-indent:-999em;border:2px solid #fff;border-radius:6px;cursor:pointer;opacity:.4;-webkit-transition:background .5s,opacity .5s;-moz-transition:background .5s,opacity .5s;transition:background .5s,opacity .5s}
+.banner .dots li.active{background:#fff;opacity:1}
+.banner .arrow{position:absolute;width:20px;height:37px;top: 50%; margin-top: -18px; overflow: hidden;z-index: 2; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;  -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;}
+.banner #al{left:15px}
+.banner #ar{right:15px}
+.banner ul{z-index: 1;width: 600%;overflow: hidden;}
+.banner ul .slider-item {width:640px; float: left;height:480px; position: relative; overflow: hidden;}
+.banner ul .slider-item .slider-title {position: absolute;left: 0;bottom: 0px;width: 610px;max-height: 56px;padding: 25px;text-align:center;line-height: 28px;color: #fff;font-size: 18px;font-weight: bold;background: -webkit-linear-gradient(top, transparent, rgba(0,0,0,0.9));background: url(../images/slider-info-bg.png) \9;}
+.banner .progress{position:absolute;left:0;bottom:-20px;width:15%;height:3px;overflow:hidden;z-index:2;background:#f60;}

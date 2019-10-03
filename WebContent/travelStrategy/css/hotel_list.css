@@ -1,0 +1,482 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}li{overflow:hidden}body{   -size:12px;text-align:center}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var,optgroup{   -style:normal;   -weight:400}h1,h2,h3,h4,h5,h6{   -size:100%;   -weight:400}abbr,acronym{border:0;   -variant:normal}input,button,textarea,select,optgroup,option{   -family:inherit;   -size:inherit;   -style:inherit;   -weight:inherit}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th{text-align:left}sup,sub{   -size:100%;vertical-align:baseline}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}.clearfix{zoom:1}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}code,kbd,samp,tt,input,button,textarea,select{   -size:100%}:link,:visited,ins,a{text-decoration:none}:focus{outline:0
+none}button::-moz-focus-inner,input[type="reset"]::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="submit"]::-moz-focus-inner,input[type="file"]>input[type="button"]::-moz-focus-inner{border:none;padding:0}*html,*html
+body{background-attachment:fixed}body{background-color:#fff;   -size:12px;line-height:1.5;   -family:"Hiragino Sans GB",Tahoma,arial,宋体,sans-serif;color:#404040;text-align:left}a{color:#404040}.f_yh{   -family:'微软雅黑'}.f12{   -size:12px}.f14{   -size:14px}.f16{   -size:16px}.f18{   -size:18px}.f20{   -size:20px}.fb{   -weight:700}.f_f00{color:#f00}.f_666{color:#666}.f_c30{color:#c30}.f_4e9700{color:#2DBB55}.f_4e9700:hover{color:#f60}.f_f60{color:#f60 !important}.f_0053aa{color:#0053aa}.f_f00{color:#f00}.f_005bb5{color:#005bb5}.c_green{color:#2DBB55}.fl{float:left}.fr{float:right}.mb_5{margin-bottom:5px}.mb_10{margin-bottom:10px}.ml_10{margin-left:10px}.mr_10{margin-right:10px}.mt_5{margin-top:5px}.mt_10{margin-top:10px}.mb_20{margin-bottom:20px}.mt_-40{margin-top:-40px}.mt_-50{margin-top:-50px}.m-180{margin:0
+0 0 -180px}.pd_10{padding:10px}.pt_2{padding-top:2px}.pt_4{padding-top:4px}.pt_5{padding-top:5px}.pr_3{padding-right:3px}.pt_8{padding-top:8px}.pr_10{padding-right:10px}.pt_10{padding-top:10px}.pl_10{padding-left:10px}.w190{width:190px}.w290{width:290px}.w700{width:700px}.w800{width:800px}.txt_lt{text-decoration:line-through}.lh1_4{line-height:1.4}.baidu_share{float:right;width:auto;line-height:15px}.search_nav{margin:10px
+0 5px;height:25px;line-height:25px;vertical-align:middle}.search_nav{zoom:1}.search_nav:after{content:".";display:block;height:0;clear:both;visibility:hidden}.search_nav
+.crumbs{float:left}.search_nav .crumbs
+a{color:#404040;padding:0
+5px}.search_nav .crumbs a:hover{color:#2DBB55}.search_nav
+h1{float:left;padding-left:5px}.zb_tour_identf,.cj_tour_identf,.gn_tour_identf,.gt_tour_identf,.zzy_tour_identf,.gs_tour_identf,.jd_tour_identf,.qz_tour_identf,.dd_tour_identf,.zjy_tour_identf,.yl_tour_identf{padding:0
+1px;margin:0
+5px 0 0}.zb_tour_identf{border:1px
+dashed #e70f47;color:#e70f47}.cj_tour_identf{border:1px
+dashed #00a8e1;color:#00a8e1}.gn_tour_identf{border:1px
+dashed #cd66cc;color:#cd66cc}.gt_tour_identf{border:1px
+dashed #fa943e;color:#fa943e}.zzy_tour_identf{border:1px
+dashed #77b800;color:#77b800}.gs_tour_identf{border:1px
+dashed #2bc4b6;color:#2bc4b6}.jd_tour_identf{border:1px
+dashed #6c3a77;color:#6c3a77}.qz_tour_identf{border:1px
+dashed #fd2caa;color:#fd2caa}.dd_tour_identf{border:1px
+dashed #be9272;color:#be9272}.zjy_tour_identf{border:1px
+dashed #8d6cd1;color:#8d6cd1}.yl_tour_identf{border:1px
+dashed #0078c9;color:#0078c9}.backToTop,.esq_over,.add_scroll,.sdd_advice,.add_weChat,.add_app{background:url(/img/20140417/common/right_suspension.png) no-repeat}.right_scroll{width:40px;height:180px;position:fixed;_position:absolute;right:20px;bottom:0px;_bottom:"auto"}.backToTop{display:block;width:40px;height:40px;background-position:0 -135px;color:#fff;   -size:12px;text-align:center;cursor:pointer;margin-bottom:5px}.backToTop:hover{background-position:-50px -135px}.esq{display:block;width:46px;height:117px;background:url(/img/20131120/common/esq_new.gif) no-repeat;color:#fff;   -size:12px;text-align:center;cursor:pointer;margin:0
+0 5px 0}.zaixiankefu{display:block;width:46px;height:117px;background:url(/img/20131120/common/esq_new.gif) no-repeat;color:#fff;   -size:12px;text-align:center;cursor:pointer;margin:0
+0 5px 0}.esq_over{width:40px;height:40px;background-position:-150px 0}.esq_over:hover{background-position:-50px 0}#bdshare{z-index:100!important}.add_scroll{display:block;width:40px;height:40px;color:#fff;   -size:12px;text-align:center;cursor:pointer;margin:0
+0 5px 0}.add_scroll{background-position:0 -89px}.add_scroll:hover{background-position:-50px -89px}.sdd_advice{display:block;width:40px;height:40px;color:#fff;   -size:12px;text-align:center;cursor:pointer;margin:0
+0 5px 0;background-position:0 -182px}.sdd_advice:hover{background-position:-50px -182px}.add_weChat{display:block;width:40px;height:40px;color:#fff;   -size:12px;text-align:center;cursor:pointer;margin:0
+0 5px 0;background-position:0 -229px}.add_weChat:hover{background-position:-50px -229px}.add_app{display:block;width:40px;height:40px;color:#fff;   -size:12px;text-align:center;cursor:pointer;margin:0
+0 5px 0;background-position:0 -276px}.add_app:hover{background-position:-50px -276px}.weChat_pop{width:101px;height:130px;border:1px
+solid #e4e4e4;padding:10px
+0 0 3px;background:#fff;display:none}.list_view .icon_nrzx, .list_view .icon_remai, .list_view .icon_tuijian, .list_view .icon_tejia, .list_view .icon_bashi, .list_view .icon_nrzz, .list_view .icon_nrgt,.list_view
+.icon_zjy{background:url(/img/20140417/common/icon_tuniu.png) no-repeat;text-indent:-20000em;position:absolute;left:2px;top:17px;z-index:1}.list_view
+.icon_nrzx{background-position:0 0;width:62px;height:66px}.list_view
+.icon_remai{background-position:0 -66px;width:52px;height:54px}.list_view
+.icon_tuijian{background-position:0 -119px;width:52px;height:54px}.list_view
+.icon_tejia{background-position:0 -174px;width:52px;height:54px}.list_view
+.icon_bashi{background-position:0 -228px;width:66px;height:68px}.list_view
+.icon_nrzz{background-position:0 -297px;width:63px;height:65px}.list_view
+.icon_nrgt{background-position:0 -362px;width:63px;height:65px}.list_view
+.icon_zjy{background-position:0 -427px;width:63px;height:65px}.nrgt_prom_ico,.nrzx_prom_ico,.rm_prom_ico,.tj_prom_ico,.xsyh_prom_ico,.zjy_prom_ico,.nrzz_prom_ico,.bszz_prom_ico,.nrzx_prom_ico,.tjian_prom_ico,.wifi_prom_icon,.xh_prom_icon{background:url(/img/20140417/common/icon_tuniu.png) no-repeat;display:inline-block;height:15px;text-indent:-20000em;overflow:hidden;_zoom:1}.nrgt_prom_ico{background-position:0 -507px;width:76px;margin-left:2px}.nrzx_prom_ico{background-position:0 -522px;width:76px;margin-left:2px}.rm_prom_ico{background-position:0 -537px;width:46px;margin-left:2px}.tj_prom_ico{background-position:0 -552px;width:47px;margin-left:2px}.tjian_prom_ico{background-position:0 -567px;width:47px;margin-left:2px}.xsyh_prom_ico{background-position:0 -582px;width:76px;margin-left:2px}.zjy_prom_ico{background-position:0 -597px;width:60px;margin-left:2px}.nrzz_prom_ico{background-position:0 -612px;width:76px;margin-left:2px}.bszz_prom_ico{background-position:0 -627px;width:85px;margin-left:2px}.wifi_prom_icon{background-position:0 -657px;width:73px;margin-left:2px}.xh_prom_icon{background-position:0 -672px;width:47px;margin-left:2px}@   -face{   -family:'tn_   face';src:url('/site/css/hotel_2016/   s_v2/icomoon.eot?87wisk');src:url('/site/css/hotel_2016/   s_v2/icomoon.eot?#iefix87wisk') format('embedded-opentype'),
+url('/site/css/hotel_2016/   s_v2/icomoon.woff?87wisk') format('woff'),
+url('/site/css/hotel_2016/   s_v2/icomoon.ttf?87wisk') format('truetype'),
+url('/site/css/hotel_2016/   s_v2/icomoon.svg?87wisk#icomoon') format('svg');   -weight:normal;   -style:normal}.tn_   face{   -family:'tn_   face';speak:none;   -style:normal;   -weight:normal;   -variant:normal;text-transform:none;line-height:1;-webkit-   -smoothing:antialiased;-moz-osx-   -smoothing:grayscale}input[type="text"]::-ms-clear{display:none}*html{background-attachment:fixed}.xubox_shade,.xubox_layer{position:fixed;_position:absolute}.xubox_shade{top:0;left:0;width:100%;height:100%;_height:expression(document.body.offsetHeight+"px")}.xubox_layer{top:150px;left:50%;height:auto;width:310px;margin-left:-155px}.xubox_border, .xubox_title, .xubox_title i, .xubox_page, .xubox_iframe, .xubox_title em,.xubox_close,.xubox_msgico,.xubox_moves{position:absolute}.xubox_title{left:0;top:0}.xubox_main{position:relative;height:100%;_float:left}.xubox_page{top:0;left:0}.xubox_load{background:url(https://ssl4.tuniucdn.com/site/file/ui-lib/layer/skin/default/xubox_loading0.gif?v=20141213) #fff center center no-repeat}.xubox_loading{display:block;float:left;text-decoration:none;color:#FFF;_float:none}.xulayer_png32{background:url(https://ssl4.tuniucdn.com/site/file/ui-lib/layer/skin/default/xubox_ico0.png?v=20141213) no-repeat}.xubox_moves{border:3px
+solid #666;cursor:move;background-color:rgba(255,255,255,.3);background-color:#fff\9;filter:alpha(opacity=50)}.xubox_msgico{display:none;width:32px;height:32px;top:84px;left:70px;background:url(https://ssl4.tuniucdn.com/site/file/ui-lib/layer/skin/default/xubox_ico0.png?v=20141213) no-repeat}.xubox_text{padding-left:66px;float:left;line-height:25px;word-break:break-all;padding-right:66px;overflow:hidden;   :bold 16px "microsoft yahei"}.xubox_msgtype0{display:none}.xubox_msgtype1{background-position:-100px -8px}.xubox_msgtype2{background-position:-140px -8px}.xubox_msgtype3{background-position:-180px -8px}.xubox_msgtype4{background-position:-100px -50px}.xubox_msgtype5{background-position:-140px -50px}.xubox_msgtype6{background-position:-180px -50px}.xubox_loading_0{width:60px;height:24px;background:url(https://ssl4.tuniucdn.com/site/file/ui-lib/layer/skin/default/xubox_loading0.gif?v=20141213) no-repeat}.xubox_loading_1{width:37px;height:37px;background:url(https://ssl4.tuniucdn.com/site/file/ui-lib/layer/skin/default/xubox_loading1.gif?v=20141213) no-repeat}.xubox_loading_2,.xubox_msgtype7{top:45px!imporatnt;width:36px;height:36px;background:url(/site/css/hotel_2016/unit/default/xubox_loading3.gif) no-repeat}.xubox_loading_3{width:126px;height:22px;background:url(https://ssl4.tuniucdn.com/site/file/ui-lib/layer/skin/default/xubox_loading3.gif?v=20141213) no-repeat}.xubox_setwin{position:absolute;right:10px;*right:0;top:10px;   -size:0}.xubox_setwin
+a{position:relative;display:inline-block;*display:inline;*zoom:1;vertical-align:top;width:14px;height:14px;margin-left:10px;   -size:12px;_overflow:hidden}.xubox_setwin .xubox_min
+cite{position:absolute;width:14px;height:2px;left:0;top:50%;margin-top:-1px;background-color:#919191;cursor:pointer;_overflow:hidden}.xubox_setwin .xubox_min:hover
+cite{background-color:#2D93CA}.xubox_setwin
+.xubox_max{background-position:-6px -189px}.xubox_setwin .xubox_max:hover{background-position:-6px -206px}.xubox_setwin
+.xubox_maxmin{background-position:-29px -189px}.xubox_setwin .xubox_maxmin:hover{background-position:-29px -206px}.xubox_setwin
+.xubox_close0{width:14px;height:14px;background-position:-6px -8px;cursor:pointer}.xubox_setwin
+.xubox_close1{position:absolute;right:-28px;top:-28px;width:30px;height:30px;margin-left:0;background-position:-60px -195px;*right:-18px;_right:-15px;_top:-23px;_width:14px;_height:14px;_background-position:-31px -7px}.xubox_title{width:100%;height:34px;border-bottom:1px solid #eee;background:#fbfbfb;color:#666}.xubox_title
+em{height:34px;line-height:34px;width:60%;left:10px;   :bold 14px/34px "宋体";text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.xubox_botton
+a{position:absolute;bottom:20px;left:50%;text-decoration:none;color:#FFF;   -size:14px;   -family:"micfosoft yahei";text-align:center;   -weight:bold;overflow:hidden;background-color:#ff9419}.xubox_botton a:hover{text-decoration:none}.xubox_botton
+.xubox_botton1{width:78px;height:30px;line-height:30px;margin-left:-39px;background-position:-6px -35px}.xubox_botton1:hover{background-position:-6px -73px}.xubox_botton
+.xubox_botton2{margin-left:-76px;width:70px;height:30px;line-height:30px;background-position:-6px -113px}.xubox_botton2:hover{background-position:-6px -146px}.xubox_botton
+.xubox_botton3{width:70px;height:30px;line-height:30px;margin-left:10px;background-color:#ccc;color:#333}.xubox_botton3:hover{background-position:-82px -146px}.xubox_tips{position:relative;line-height:20px;min-width:12px;padding:3px
+30px 3px 10px;   -size:12px;_float:left;border-radius:3px;box-shadow:1px 1px 3px rgba(0,0,0,.3)}.xubox_tips
+i.layerTipsG{position:absolute;width:0;height:0;border-width:8px;border-color:transparent;border-style:dashed;*overflow:hidden}.xubox_tips i.layerTipsT, .xubox_tips
+i.layerTipsB{left:5px;border-right-style:solid}.xubox_tips
+i.layerTipsT{bottom:-8px}.xubox_tips
+i.layerTipsB{top:-8px}.xubox_tips i.layerTipsR, .xubox_tips
+i.layerTipsL{top:1px;border-bottom-style:solid}.xubox_tips
+i.layerTipsR{left:-8px}.xubox_tips
+i.layerTipsL{right:-8px}.clear{clear:both}.tnDateW{width:647px;z-index:999;background:#fff;border:1px
+solid #ddd;box-shadow:0 0 3px #ddd;position:absolute;overflow:hidden;_zoom:1;   -family:'微软雅黑'}.date_notice{margin-top:5px;   -size:12px;line-height:1.5;color:#999}.date_t_pre{width:301px;float:left;padding:0
+15px 10px;border:none}.date_t_next{width:301px;float:left;padding:0
+15px 10px 0;border:none}.pre_month{color:#333;text-align:center;background:#fff;   -size:12px;line-height:40px}.next_month{color:#333;text-align:center;background:#fff;   -size:12px;line-height:40px}.dateSel_t{border-collapse:collapse}.dateSel_t th,.dateSel_t
+td{   -size:12px;width:43px;text-align:center}.dateSel_t th.weekend,
+.dateSel_t td
+.weekend{color:#f80}.dateSel_t
+th{background:#535D63;   -weight:normal;color:#fff;line-height:24px}.dateSel_t
+td{color:#999;line-height:40px;border:1px
+solid #fff}.dateSel_t
+td.tdCobj{color:#333;   -weight:normal;cursor:pointer}.dateSel_t td.tdCobj
+strong{   -weight:normal}.dateSel_t td
+.day{display:block}.dateSel_t
+td.tdCobjS{background-color:#fff6ea}.dateSel_t td.tdCobjS
+.day{position:relative;zoom:1;background-color:#fff6ea}.dateSel_t td.tdCobjS .day:before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;box-sizing:border-box;border:1px
+solid #ffd6a0}.dateSel_t
+td.tdCobjN{background-color:#ffa833;   -weight:normal;color:#fff}.dateSel_t td.tdCobjN
+.day{border-color:#ffa833;background-color:#ffa833}.dateSel_t td.tdCobjN .day:before{border:none}.dateSel_t td
+.caldate{display:block;background-color:#fff6ea}.dateSel_t td .caldate
+.day{border-color:#fff6ea}.dateSel_t td .caldate .day:before{border:none}.dateSel_t td
+.holiday{position:relative;zoom:1;display:block}.dateSel_t td .holiday .icon-holiday,
+.dateSel_t td .holiday .icon-work{position:absolute;top:0;right:0;z-index:2;padding:0
+1px;line-height:1.2em;   -size:10px;   -style:normal;-webkit-transform:scale(0.85)}.dateSel_t td.tdCobj
+.holiday{color:#f80}.dateSel_t td.tdCobj
+.work{color:#333}.dateSel_t td.tdCobjN .holiday,
+.dateSel_t td.tdCobjN
+.work{color:#fff}.pre_month{overflow:hidden;_zoom:1}.pre_link{display:block;padding:0
+5px;color:#ccc;float:left;border-right:none;   -family:'宋体';   -weight:bold}.next_link{display:block;padding:0
+5px;color:#ccc;float:right;border-left:none;   -family:'宋体';   -weight:bold}.pre_link:link,.next_link:link{color:#666}.pre_link:link:hover,.pre_link:visited{text-decoration:none;color:#71d328}.next_link:link:hover,.next_link:visited{text-decoration:none;color:#71d328}.right_scroll{position:fixed;bottom:197px;right:0px;width:87px;height:315px;background:#fff;border:1px
+solid #eee;border-bottom:none;z-index:999}@media only screen and (min-width: 1525px){.right_scroll{right:75px}}.right_scroll
+.des{width:87px;height:76px;background:#2DBB55;text-align:center}.right_scroll .des
+p{padding:9px
+0;line-height:19px;   -size:14px;color:#fff;cursor:default}.right_scroll
+.erweima{width:71px;height:71px;margin:12px
+8px 0;text-align:center}.right_scroll .erweima
+img{width:100%}.right_scroll .des-code{height:35px;border-bottom:1px solid #e5e5e5;   -size:12px;text-align:center;line-height:35px;color:#000;cursor:default}.right_scroll .com-li{height:39px;border-bottom:1px solid #e5e5e5}.right_scroll .kefu, .right_scroll .fankui, .right_scroll
+.ques{float:left;width:23px;height:25px;margin:7px
+0 0 6px}.right_scroll
+.kefu{background:url("http://img4.tuniucdn.com/hotel-newRightScroll/kefu-icon.png?v=001") center no-repeat}.right_scroll
+.fankui{background:url("http://img4.tuniucdn.com/hotel-newRightScroll/fankui-icon.png?v=001") center no-repeat}.right_scroll
+.ques{background:url("http://img4.tuniucdn.com/hotel-newRightScroll/ques-icon.png?v=001") center no-repeat}.right_scroll .fankui-des, .right_scroll .ques-des, .right_scroll .kefu-des{float:left;   -size:12px;margin:10px
+0 0 3px;color:#2DBB55;   -weight:bold}.hide{display:none}.right_scroll
+.toTop{height:40px;border:1px
+solid #eee;border-top:none;background:#fff;width:87px;margin-left:-1px}.right_scroll .toTop
+a{display:block;height:40px;margin:0
+10px;line-height:57px;text-align:center;cursor:pointer}.right_scroll .toTop a
+img{margin-top:11px}.kefu-li{cursor:pointer}.hotel_national_tips{width:100%;   -style:normal;   -size:12px;   -family:microsoft yahei}.hotel_national_tips .fea_fw,
+.hotel_national_tips
+i{   -style:normal}.autocomplete_hotel
+.hotel_national_tips{height:25px;line-height:25px}.autocomplete_hotel .hotel_national_tips
+a{display:block;padding:0
+15px;overflow:hidden}.selected
+.hotel_national_tips{background:#37c249;color:#fff}.selected .hotel_national_tips
+i{color:#fff}.selected .hotel_national_tips
+a{color:#fff}.hotel_national_tips
+i{   -weight:normal}.hotel_national_tips
+.hotel_gray{_float:right;float:right;   -weight:normal;margin-left:5px;color:#999;padding-right:5px}.hotel_national_tips
+.coun_name{float:left;margin-left:15px}.autocomplete_hotel
+.hotel_national_part{height:auto;line-height:inherit}.hotel_national_tips em, .hotel_naional_tips
+.coun_name{float:left;padding-left:5px;max-width:100px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.national_hotle_part>div{line-height:inherit !important;height:auto!important}.tn_icons_close_16{display:inline-block;width:16px;height:16px;background:url("https://ssl.tuniucdn.com/img/20141223/common/tn_icons.png") no-repeat;background-position:0 -308px}.pagination .page-jump{margin:0
+25px 0 0}.pagination .horizontal-ellipsis{position:relative;top:-4px;margin-right:7px;margin-left:2px}.pagination .page-num, .pagination .prev, .pagination .next, .pagination .go-to-input, .pagination .confirm-btn{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;height:28px;line-height:28px;border:1px
+solid #e6e6e6;text-align:center;margin:0
+5px 0 0;cursor:pointer}.pagination .page-num.current, .pagination .prev.current, .pagination .next.current, .pagination .go-to-input.current, .pagination .confirm-btn.current{color:#fff;background-color:#2DBB55;border-color:#2DBB55}.pagination .page-num:hover, .pagination .prev:hover, .pagination .next:hover, .pagination .go-to-input:hover, .pagination .confirm-btn:hover{border-color:#2DBB55}.pagination .page-num{width:28px}.pagination
+.prev{width:28px}.pagination .prev
+i{margin-top:6px;display:inline-block}.pagination
+.next{width:28px}.pagination .next
+i{margin-left:5px;margin-top:6px;display:inline-block}.pagination .go-to-input{width:30px;cursor:text;margin:0
+7px}.pagination .confirm-btn{width:48px;margin:0
+0 0 7px}.pagination .icon-right, .pagination .icon-left{background-image:url(http://img2.tuniucdn.com/img/20150624/hotel_2016/list/icon-scd8daa0182.png);background-repeat:no-repeat}.pagination .icon-left{background-position:-270px -48px;height:16px;width:12px}.pagination .icon-right{background-position:-281px -48px;height:16px;width:16px}#searchForm
+textarea{display:none}.hotel_stars_hidden{background:url("http://img1.tuniucdn.com/img/201507132058/hotel_2016/detail/star.png") 0 -18px no-repeat;display:inline-block;zoom:1;width:95px;height:17px;margin-top:10px;vertical-align:middle;overflow:hidden;display:block}.hotel_stars_show
+i{background:url("http://img1.tuniucdn.com/img/201507132058/hotel_2016/detail/star.png") 0 0 no-repeat;display:inline-block;zoom:1;width:95px;height:17px;margin-top:0px;vertical-align:middle;overflow:hidden}.hotel_types_show{color:#666}.name_history{padding:5px;float:left;margin-left:5px}.name_history
+a{   -family:MicrosoftYaHei-Bold;   -size:14px;   -weight:bold;color:#666;letter-spacing:0px;line-height:16px;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:inline-block;width:11.5em}.hotel_stars_hidden{margin-top:1px}.hotel_types_hidden{margin-top:1px}.hl_modu
+.price{width:100%;float:left}.price
+.hl_modu_price{display:inline;text-align:right;   -family:'microsoft yahei';line-height:15px;margin-left:5px;display:inline-block;float:right;margin-right:14px}.icon{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline}.none{display:none}.hide{display:none}.ibk{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline}.layer-error-tip{text-align:center;width:200px;height:40px;line-height:40px}.layer-warn-tip{width:300px;   -size:14px;color:#333;padding:10px}::-ms-clear{display:none}::-ms-reveal{display:none}.icon-sprite,.icon-baggage-storage,.icon-bar,.icon-bottled-water,.icon-breakfast,.icon-cafe,.icon-calendar,.icon-cancel,.icon-check-square,.icon-close,.icon-discount,.icon-expression,.icon-free-net,.icon-gift,.icon-gold-medal,.icon-goto,.icon-group,.icon-guarantee,.icon-hair-dryer,.icon-hotel,.icon-instant-confirmation,.icon-map,.icon-marker,.icon-net,.icon-next,.icon-no-smoke,.icon-poor,.icon-preferred,.icon-prepay,.icon-prev,.icon-promotion,.icon-question,.icon-sequence,.icon-silver-medal,.icon-sort-asc-on,.icon-sort-asc,.icon-sort-desc-on,.icon-sort-desc,.icon-square,.icon-strategic-cooperation,.icon-wakeup,.icon-index,.icon-up,.icon-down,.icon-up-checked,.icon-down-checked,.icon-tip,.icon-left,.icon-right,.icon-map-marker{background-image:url(http://img2.tuniucdn.com/img/201705171841/hotel_2016/list/icon-scd8daa0182.png);background-repeat:no-repeat}.icon-index{background-position:-296px -40px;height:23px;width:21px}.icon-up{background-position:-178px -59px;height:8px;width:8px}.icon-up-checked{background-position:-131px -61px;height:8px;width:8px}.icon-down{background-position:-141px -61px;height:8px;width:8px}.icon-down-checked{background-position:-168px -59px;height:8px;width:8px}.icon-tip{background-position:-75px -49px;height:16px;width:16px}.icon-left{background-position:-270px -48px;height:16px;width:12px}.icon-right{background-position:-284px -48px;height:16px;width:16px}.icon-map-marker{background-position:0px -23px;height:43px;width:43px}.icon-baggage-storage{background-position:-14px 0;height:12px;width:12px}.icon-bar{background-position:-26px 0;height:14px;width:14px}.icon-bottled-water{background-position:-40px 0;height:14px;width:6px}.icon-breakfast{background-position:-46px 0;height:12px;width:14px}.icon-cafe{background-position:-72px 0;height:14px;width:14px}.icon-calendar{background-position:-42px -49px;height:18px;width:19px}.icon-cancel{background-position:-106px 0;height:13px;width:12px}.icon-check-square{background-position:-103px -51px;height:14px;width:14px}.icon-close{background-position:-145px 0;height:12px;width:12px}.icon-discount{background-position:-175px 0;height:16px;width:16px}.icon-expression{background-position:-191px 0;height:60px;width:59px}.icon-free-net{background-position:-250px 0;height:14px;width:14px}.icon-gift{background-position:-264px 0;height:16px;width:16px}.icon-gold-medal{background-position:-280px 0;height:23px;width:26px;margin-top:11px}.icon-goto{background-position:-257px -55px;height:5px;width:9px}.icon-group{background-position:-314px 0;height:16px;width:15px}.icon-hair-dryer{background-position:-372px 0;height:13px;width:16px}.icon-hotel{background-position:-91px -51px;height:17px;width:12px}.icon-instant-confirmation{background-position:-400px 0;height:16px;width:50px}.icon-map{background-position:-450px 0;height:14px;width:14px}.icon-marker{background-position:-464px 0;height:40px;width:28px}.icon-net{background-position:-492px 0;height:14px;width:14px}.icon-next{background-position:-506px 0;height:50px;width:40px}.icon-no-smoke{background-position:-546px 0;height:14px;width:14px}.icon-poor{background-position:-604px 0;height:57px;width:60px}.icon-preferred{background-position:-664px 0;height:35px;width:89px}.icon-prev{background-position:-780px 0;height:50px;width:40px}.icon-promotion{background-position:-820px 0;height:16px;width:16px}.icon-question{background-position:-836px 0;height:65px;width:60px}.icon-sequence{background-position:-907px 0;height:30px;width:30px}.icon-silver-medal{background-position:-937px 0;height:24px;width:26px;margin-top:11px}.icon-sort-asc-on{background-position:-963px 0;height:8px;width:8px}.icon-sort-asc{background-position:-971px 0;height:8px;width:8px}.icon-sort-desc-on{background-position:-979px 0;height:8px;width:8px}.icon-sort-desc{background-position:-987px 0;height:8px;width:8px}.icon-square{background-position:-1011px 0;height:14px;width:14px}.icon-strategic-cooperation{background-position:-1024px 0;height:24px;width:26px;margin-top:8px}.icon-wakeup{background-position:-1066px 0;height:14px;width:14px}::-webkit-scrollbar{height:8px;width:8px;border-radius:5px}::-webkit-scrollbar-button{display:none}::-webkit-scrollbar-track{background:#f9f9f9}::-webkit-scrollbar-track-piece{background:#f9f9f9}::-webkit-scrollbar-thumb{width:8px;min-height:15px;background:rgba(0,0,0,0.3);border-radius:5px}::-webkit-scrollbar-thumb:hover{background:rgba(0,0,0,0.6)}::-webkit-scrollbar-thumb:active{background:rgba(0,0,0,0.8)}.wrap{width:100%;background:#f9f9f9}.container{width:1000px;margin:0
+auto;   -size:14px;   -family:"microsoft yahei";color:#666}.index1200
+.container{width:1200px}.content{width:1000px;margin:0
+auto 52px auto;position:relative}.index1200
+.content{width:1200px}.aside{position:static;top:0px;width:280px;float:right;right:0px;display:none;z-index:11}.index1200
+.aside{display:block}.main{width:1000px;float:left;position:relative}.index1200
+.main{width:908px}.search_nav{margin:0;padding:10px
+0 5px}.search_nav .crumbs
+a{color:#2DBB55}.search_nav .crumbs a:hover{color:#2DBB55}.search_nav
+.price_tip{float:right;color:#c8c8c8}.searchForm{margin:3px
+0 0 0;color:#000}.search_part{position:relative;height:38px;padding:14px
+0 14px 20px;background:#38414C;color:#000}.index1200 .input_txt, .index1200
+.input_date{padding:5px
+10px}.input_txt,.input_date{line-height:25px;display:inline-block;padding:5px
+5px;border:0
+none;overflow:hidden;vertical-align:middle;border:1px
+solid #ddd;border-radius:3px;background:#fff;   -size:14px}.input_txt{color:#999}.txtCity{width:102px;color:#404040}.txtCity.grey{color:#bcbcbc}.index1200
+.txtCity{width:154px}.input_date{width:146px;color:#333}.index1200
+.input_date{width:174px}.input_keyWord{width:180px;color:#404040}.input_keyWord.grey{color:#bcbcbc}.input_keyWord.em{color:#666}.index1200
+.input_keyWord{width:209px}.search_part
+label{margin-right:15px;position:relative;display:inline-block;height:37px;line-height:37px;float:left}.index1200 .search_part
+label{margin-right:20px}.index1200 .search_part
+.keyword_label{margin-right:15px}.search_part .label-text{color:#fff;margin-right:10px;vertical-align:top;*vertical-align:baseline}.index1200 .search_part
+.date{right:38px;   -size:14px}.search_part
+.date{position:absolute;right:25px;color:#ccc;line-height:37px;   -size:12px}.searchBtn{display:inline-block;_display:inline;zoom:1;width:67px;height:35px;line-height:35px;text-align:center;background:#2db2ea;color:#fff;border:0
+none;border-radius:3px;   -size:14px;cursor:pointer;letter-spacing:0.1em}.search_part
+.searchBtn{float:left;   -size:16px}.search_part .icon-down{position:absolute;top:15px;right:10px;display:inline-block}.index1200 .search_part .icon-calendar{right:10px}.search_part .icon-calendar{position:absolute;right:5px;top:11px}.txtCity.error,.input_date.error{border-color:#f00;border-radius:0px}.day-beyond-tip{position:absolute;background:#fffceb;width:260px;border:1px
+solid #ffdbb2;height:19px;left:775px;padding:8px
+10px;z-index:1;word-break:break-all;text-align:left;   -size:12px;border-radius:5px;line-height:19px}.day-beyond-tip .big-up-left-arrow{left:-13px;position:absolute;top:12px;border-width:6px;border-style:dashed solid dashed dashed;border-color:transparent #ffdbb2 transparent transparent;   -size:0;width:0;height:0;line-height:0}.day-beyond-tip .small-up-left-arrow{left:-8px;position:absolute;top:14px;border-width:4px;border-style:dashed solid dashed dashed;border-color:transparent #fffceb transparent transparent;   -size:0;width:0;height:0;line-height:0}.searchHotel{margin-right:10px;background:#f68b33}.index1200
+.searchHotel{width:100px}.city_hotresults{width:553px;border:1px
+solid #b9bcbe;padding:10px;   -size:13px;display:none;background:#fff;border-radius:5px}.city_hotresults
+.city_tit{color:#000;margin-bottom:8px;_   -size:12px}.city_hotresults
+li{float:left;display:block;width:60px;height:25px;line-height:25px;text-align:center;color:#5e5d5d;cursor:pointer;_   -size:12px}.city_hotresults
+.regionTai{float:left;line-height:25px;margin-right:6px;color:grey}.city_hotresults
+.gangaotai{width:99%;height:25px;margin-left:-3px}.city_box{border:1px
+solid #e7e7e7;padding:10px
+15px;display:none;background:#fff;width:380px}.city_box
+.city_tit{color:#000;margin-bottom:8px;_   -size:12px}.city_box
+li{float:left;display:block;width:60px;height:25px;line-height:25px;text-align:center;color:#5e5d5d;cursor:pointer;_   -size:12px}.popcitytit{margin-bottom:5px}.popcitytit
+li{background:#e3e3e3;border-left:1px solid #fff}.popcitytit li.cur, .popcitytit
+li.ac_hover{background:#2DBB55;color:#fff}.popcitylist{padding:0
+0 0 15px}.city_keyword
+.popcitylist{padding:5px
+0 10px 0;border-bottom:1px dashed #ddd}.city_keyword .popcitylist:last-child{border:none}.popcitylist
+li{width:61px;text-align:left}.popcitylist li
+a{cursor:pointer}.popcitylist li:hover, .popcitylist li a:hover{color:#f80}.popcitylist
+li.ac_hover{text-decoration:underline}.popcitylist
+.dt{color:#e56700;   -size:14px;   -weight:400;margin:0
+0 -25px -15px;padding:5px
+0 0;width:99%}.city_keyword
+.close_btn{position:absolute;right:20px;top:10px;color:#bbb;   -size:14px;   -weight:bold;cursor:pointer}.city_keyword .popcitylist
+.dt{color:#333;   -weight:bold;   -size:14px;margin:0;padding:5px
+0;width:99%}.city_keyword .popcitylist
+li{min-width:45px;text-align:left;margin-right:15px;width:auto}.filters-wrap{margin:0
+0 20px 0;padding:8px
+15px 0;border:1px
+solid #e6e6e6;background:#fff;position:relative;z-index:101}.filters-wrap.expanded .filters-bar .to-expand-text{display:none}.filters-wrap.expanded .filters-bar .to-collapse-text{display:inline}.filters-wrap.expanded .filters-bar .angle-double-down-icon{display:none}.filters-wrap.expanded .filters-bar .angle-double-up-icon{display:inline}.filters-bar{padding:0
+11px 0 0;line-height:40px}.filters-bar .toggle-rest{color:#1278b3;cursor:pointer}.filters-bar .to-expand-text{display:inline;margin:0
+5px 0 0}.filters-bar .to-collapse-text{display:none;margin:0
+5px 0 0}.filters-bar .angle-double-down-icon{display:inline}.filters-bar .angle-double-up-icon{display:none}.ie .filters-result .close-icon{margin-top:-3px}.filters-result{color:#666}.filters-result .tip-text{margin:0
+10px 0 0}.filters-result .hotel-total{margin:0
+5px;color:#2DBB55;   -weight:bold}.filters-result
+.labels{max-width:875px;margin:10px
+0 0 0}.filters-result
+.label{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;margin:0
+10px 5px 0;border:1px
+dashed #ccc;color:#999;line-height:20px;padding:0
+5px 0 8px}.filters-result .label:hover{color:#f80;border:1px
+solid #f80;cursor:pointer}.filters-result .label-text{margin:0
+5px 0 0;vertical-align:text-top}.filters-result .close-icon{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;vertical-align:text-top;cursor:pointer;   -style:normal;   -size:14px;width:12px;height:12px}.filters-result .clear-btn{cursor:pointer;color:#2DBB55}.filter{color:#666;padding:0
+0 8px 0}.filter
+a{color:#666}.filter.last{border-bottom:1px solid #efefef}.filter-key{color:#aaa;margin:11px
+5px 0 0;width:70px;text-align:right}.filter-value{width:880px;margin:8px
+0 0 0}.index1200 .filter-value{width:1080px}.filter-tabs-panel{background-color:#F0F4FB;line-height:24px;overflow:hidden;position:relative;width:879px}.filter-tabs-panel .filter-tabs{padding:9px
+0 9px 10px;margin:0
+10px;border-bottom:1px solid #ddd}.filter-tabs-panel .filter-tab{width:auto;height:auto;margin:0
+20px 0 0;cursor:pointer}.filter-tabs-panel .filter-tab.on
+a{color:#f60}.index1200 .filter-tabs-panel{width:1079px}.filter-options-panel{background-color:#F0F4FB;line-height:24px;overflow:hidden;position:relative;width:854px;padding:9px
+10px 9px 15px;height:21px}.filter-options-panel .filter-option{width:130px;line-height:24px;height:30px}.filter-options-panel.expanded .filter-option{height:auto}.filter-options-panel.expanded{height:auto}.filter-options-panel.expanded .icon-down-checked{display:none}.filter-options-panel.expanded .icon-up{display:inline-block}.filter-options-panel.expanded .to-expand-text{display:none}.filter-options-panel.expanded .to-collapse-text{display:inline}.filter-options-panel .show-more{position:absolute;right:10px;bottom:12px;line-height:1;cursor:pointer}.filter-options-panel .show-more .to-expand-text{margin:0
+5px 0 0;color:#2DBB55}.filter-options-panel .show-more .to-collapse-text{margin:0
+5px 0 0}.filter-options-panel .to-expand-text{display:inline}.filter-options-panel .to-collapse-text{display:none}.filter-options-panel .icon-down-checked{display:inline-block}.filter-options-panel .icon-up{display:none}.index1200 .filter-options-panel{width:1054px}.filter-tab{margin-right:30px;height:24px}.filter-tab.on{height:29px}.filter-tab.on
+a{color:#2DBB55;background-color:#F0F4FB}.filter-tab.light
+a{color:#2DBB55}.filter-tab a .icon-down{display:inline-block;margin-left:5px}.filter-tab a .icon-up-checked{display:none;margin-left:5px}.filter-tab.on a .icon-down{display:none}.filter-tab.light a .icon-down{display:inline-block;background-position:-168px -58px}.filter-tab.on a .icon-up-checked{display:inline-block}.filter-tab.light a .icon-up-checked{display:none}.filter-tab
+a{position:relative;padding:0
+25px 5px 10px;cursor:pointer;display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;line-height:24px}.filter-tab a .caret-down-icon{display:inline;top:3px}.filter-tab a .caret-up-icon{display:none;top:8px}.filter-noLimit-tab{width:50px;height:24px;line-height:24px;text-align:center;margin:0
+17px 0 0;cursor:pointer}.filter-noLimit-tab.on
+a{color:#f80}.filter-noLimit-tab .icon-square{display:inline-block}.filter-noLimit-tab .icon-check-square{display:none;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline}.filter-noLimit-tab.on .icon-square{display:none}.filter-noLimit-tab.on .icon-check-square{display:inline-block}.filter-option{cursor:pointer;width:115px;margin:0
+20px 0 0;line-height:24px;white-space:nowrap;overflow:hidden;-ms-text-overflow:ellipsis;-o-text-overflow:ellipsis;text-overflow:ellipsis}.filter.score .filter-option{width:auto;margin:0
+30px 0 0}.filter-option
+a{vertical-align:middle;margin:0
+0 0 5px}.filter-option .icon-check-square{display:none}.filter-option.on
+a{color:#f60}.filter-option.on .icon-square{display:none}.filter-option.on .icon-check-square{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline}.filter-options{margin:0
+0 0 71px}.filter-price-range .price-from, .filter-price-range .price-to{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;border:1px
+solid #999;margin:0
+5px;padding:0
+3px 0 6px}.filter-price-range .price-from input, .filter-price-range .price-to
+input{border:none;width:35px;height:22px;line-height:22px;margin:0
+0 0 5px}.filter-price-range .confirm-btn{color:#f60;margin:0
+0 0 5px;cursor:pointer}.loading-bar{display:none;height:72px;text-align:center}.loading-bar .loading-content{height:100%;display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline}.loading-bar
+.icon{background:url(http://img1.tuniucdn.com/img/201507132058/hotel_2016/common/loading_new.gif) center center no-repeat;width:72px;height:72px;display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;margin:0
+20px 0 0}.loading-bar
+.text{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;   -size:14px;color:#999}.hotel-sort{height:40px;line-height:40px;border:1px
+solid #e6e6e6;background-color:#fff;top:0;z-index:100;width:998px}.index1200 .hotel-sort{width:906px}.first-sort .sort-tab{text-align:center;cursor:pointer;position:relative;border-right:1px solid #eee;padding:0
+5px;min-width:70px}.first-sort
+.sort_distance{display:none}.first-sort .price .text, .first-sort .distance
+.text{margin:0
+3px 0 0}.asc-desc .icon-up, .asc-desc .icon-up-checked{position:absolute;top:15px;left:60px}.asc-desc .icon-down, .asc-desc .icon-down-checked{position:absolute;top:21px;left:60px}.asc-desc .icon-down-checked, .asc-desc .icon-up-checked{display:none}.asc-desc.on.asc .icon-up-checked{display:inline}.asc-desc.on.desc .icon-down-checked{display:inline}.first-sort .on
+.text{color:#2DBB55;   -weight:bold}.second-sort{margin-right:15px}.second-sort .sort-tab{margin-left:40px;cursor:pointer}.second-sort .sort-tab
+.text{margin-left:5px}.second-sort .on
+.text{color:#f80}.second-sort .icon-check-square{display:none}.second-sort .on .icon-square{display:none}.second-sort .on .icon-check-square{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline}.third-sort{margin:0
+15px 0 47px;display:none}.third-sort .sort-tab-group{height:20px;line-height:20px;margin:4px
+0 0 0;border:1px
+solid #2DBB55}.third-sort .sort-tab-group .sort-tab{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;width:50px;height:20px;text-align:center;color:#2DBB55;cursor:pointer}.third-sort .sort-tab-group .sort-tab.on{background:#2DBB55;color:#fff}.hotel-list{margin:0px
+0 10px 0}.hotel-list.cash-back-before .cash-back-before{display:inline}.hotel-list.cash-back-before .cash-back-after{display:none}.hotel-list.cash-back-after .cash-back-before{display:none}.hotel-list.cash-back-after .cash-back-after{display:inline}.empty-hotels{text-align:center;height:120px;line-height:120px;background-color:#fff;border:1px
+solid #e6e6e6;margin-top:10px}.empty-hotels
+.icon{margin:0
+15px 0 0}.empty-hotels
+.text{color:#f60;   -size:16px}.hotel{background-color:#fff;margin-top:15px;border:1px
+solid #e6e6e6;color:#666}.hotel:hover{border:1px
+solid #fff;box-shadow:0 0 3px #f60}.hotel:hover .nameAndIcon .icon-index{background-position:-321px -40px}.hotel:hover .nameAndIcon
+i.text{color:#fff}.hotel:hover .nameAndIcon
+a.name{color:#f80}.hotel-hd{height:175px}.hotel-logo{width:262px;height:175px;position:relative;margin:0
+7px 0 0;cursor:pointer}.hotel-logo.has-more-snapshots{cursor:pointer}.hotel-logo
+img{width:100%;height:100%}.hotel-logo
+.tag_img{position:absolute;width:85px!important;height:25px!important}.hotel-logo
+.tile{position:absolute;left:0;top:0;width:30px;height:30px}.hotel-logo .tile
+.text{position:absolute;left:3px;color:#fff}.hotel-logo
+.bar{position:absolute;left:0;bottom:0;width:100%;text-align:center;height:24px}.hotel-logo .bar
+.mask{height:100%;position:absolute;left:0;top:0;width:100%;background:#000;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=70);opacity:0.7}.hotel-logo .bar
+.text{color:#bbb;position:absolute;width:100%;line-height:24px;height:24px;left:0}.hotel-type{width:33px;height:100%}.hotel-free{width:33px;height:100%}.hotel-info{position:relative;height:100%;width:50%}.hotel-info .icon-xiecheng{width:20px;height:20px;display:inline-block;background:url(http://img1.tuniucdn.com/img/201507132058/hotel_2016/list/xiecheng.png)0 0px no-repeat;margin-right:5px}.index1200 .hotel-info{width:47%}.hotel-info .icon-star{width:95px;height:17px;margin-right:2px;text-align:left;background:url("http://img1.tuniucdn.com/img/201507132058/hotel_2016/detail/star.png") 0 -18px no-repeat;display:inline-block;margin-top:5px}.hotel-info .icon-star
+label{width:95px;height:17px;display:inline-block;background:url("http://img1.tuniucdn.com/img/201507132058/hotel_2016/detail/star.png") 0 0 no-repeat}.hotel-info
+.nameAndIcon{margin:8px
+0}.hotel-info .nameAndIcon
+.tile{display:inline-block}.hotel-info .nameAndIcon
+.text{color:#fff;   -style:normal;   -size:12px}.hotel-info .nameAndIcon
+.name{   :bold 17px 'Microsoft Yahei';margin:0
+10px 0 0;vertical-align:middle;color:#4c5a65;letter-spacing:0px}.hotel-info .nameAndIcon
+.level{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;cursor:default;color:#999}.hotel-info .nameAndIcon .level .authentication-bg{width:91px;height:23px;background:url(http://img2.tuniucdn.com/img/20150624/hotel_2016/list/medal.png) 0 0 no-repeat}.hotel-info .nameAndIcon .star-2 .authentication-bg{background-position:0 -69px}.hotel-info .nameAndIcon .star-3 .authentication-bg{background-position:0 -46px}.hotel-info .nameAndIcon .star-4 .authentication-bg{background-position:0 -23px}.hotel-info .nameAndIcon
+.decorate_year{display:inline-block;vertical-align:middle;padding-left:2px;height:19px;line-height:19px;margin-left:2px;margin-top:1.5px}.hotel-info
+.remarkTag{background:#fff3e5;padding:5px
+7px;color:#f60;margin:0
+10px 0 0}.hotel-info
+.addressInfo{margin:7px
+0 0 0}.hotel-info .addressInfo
+.surroundingLandmarks{color:#666}.hotel-info
+.route{margin:3px
+0 0 0}.hotel-info .route .icon-goto{margin:0
+7px}.hotel-info .route .route-content{margin:0
+8px 0 0}.hotel-info .route .view-main-map{color:#2DBB55;cursor:pointer}.hotel-info .route .view-main-map:hover{}.hotel-info
+.facilities{margin:10px
+0 0 0}.hotel-info .facilities
+.icon{margin:0
+10px 0 0}.hotel-seperator{height:132px;border-right:1px dashed #e0e0e0;margin:15px
+0 0 0}.hotel-brief{width:19%;text-align:center}.hotel-brief .icon-preferred{margin:-15px 0 0 0;   :16px 'Microsoft Yahei';color:#fff;padding-top:1px}.hotel-brief
+.startPrice{margin:15px
+0 10px 0;position:relative}.hotel-brief .startPrice
+.yen{   :15px/1 'Microsoft Yahei';color:#2db2ea;margin:0
+4px 0 0}.hotel-brief .startPrice
+img{position:relative;bottom:-8px}.hotel-brief .startPrice
+.no_price{   -size:22px;color:#989898}.hotel-brief .startPrice
+.digit{   :28px/1 'Microsoft Yahei';color:#2db2ea;margin:0
+4px 0 0;   -weight:bold}.hotel-brief .startPrice
+.text{   :13px/1 SimSun;color:#f60}.hotel-brief
+.satisfaction{color:#999;   -size:14px}.hotel-brief .satisfaction
+.highlight{}.hotel-brief .satisfaction
+.slash{margin:0
+1px 0 2px}.hotel-brief .satisfaction .icon-tip{cursor:pointer}.hotel-brief .comment
+a{padding:0
+0 1px;color:#ccc}.hotel-brief .comment
+.digit{color:#2DBB55;padding:0
+2px}.hotel-brief .hotelDetail
+a{display:inline-block;width:94px;background:#2D93CA;padding:3px;margin:5px;   -size:14px;   -family:MicrosoftYaHei-Bold;color:#fff;   -weight:bold;border-radius:2px}.hotel-brief
+.lastOrderTime{color:#f97655}.hotel-room-hd{background-color:#F0F4FB;border-bottom:2px solid gainsboro;height:30px;line-height:30px;padding:0
+0 0 15px}.hotel-room-hd
+.roomType{width:251px}.hotel-room-hd
+.bedType{width:56px}.hotel-room-hd
+.breakfast{width:51px}.hotel-room-hd
+.broadband{width:75px}.hotel-room-hd
+.cancelPolicy{width:87px}.hotel-room-hd
+.averagePrice{width:196px}.hotel-room-hd .averagePrice
+.text{color:#999}.hotel-room{position:relative}.hotel-room.unfolded .hotel-room-current .roomType .planName, .hotel-room.unfolded .hotel-room-current .roomType
+.ibk{display:none}.hotel-room.unfolded .hotel-room-current .bedType, .hotel-room.unfolded .hotel-room-current .breakfast, .hotel-room.unfolded .hotel-room-current .broadband, .hotel-room.unfolded .hotel-room-current .cancelPolicy, .hotel-room.unfolded .hotel-room-current .averagePrice, .hotel-room.unfolded .hotel-room-current
+.preserve{display:none}.hotel-room.unfolded .roomType .name-wrap{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;margin-right:5px}.hotel-room
+.roomType{margin:0
+20px 0 0;position:relative}.hotel-room .roomType .name-wrap{max-width:100%}.hotel-room .roomType
+.name{cursor:pointer;color:#2DBB55;margin:0
+3px 0 0}.hotel-room .roomType .name:hover{text-decoration:underline}.hotel-room .roomType
+.planName{color:#666}.hotel-room .roomType .group, .hotel-room .roomType .promotion, .hotel-room .roomType .discount, .hotel-room .roomType .gift, .hotel-room .roomType .instant-confirmation{margin:0
+2px 0 0;position:relative}.hotel-room .roomType .group:hover .tip, .hotel-room .roomType .promotion:hover .tip, .hotel-room .roomType .discount:hover .tip, .hotel-room .roomType .gift:hover .tip, .hotel-room .roomType .instant-confirmation:hover
+.tip{display:block}.hotel-room .roomType
+.tip{color:#666;text-align:left;display:none;position:absolute;background:#fffceb;width:260px;border:1px
+solid #ffdbb2;top:26px;left:-3px;padding:8px
+10px;z-index:1;word-break:break-all}.hotel-room .roomType .tip .big-up-arrow{left:5px;position:absolute;top:-12px;border-width:6px;border-style:dashed dashed solid dashed;border-color:transparent transparent #ffdbb2 transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .roomType .tip .small-up-arrow{left:7px;position:absolute;top:-8px;border-width:4px;border-style:dashed dashed solid dashed;border-color:transparent transparent #fffceb transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .roomType .tip
+.title{color:#f60}.hotel-room
+.bedType{width:56px}.hotel-room
+.breakfast{width:51px}.hotel-room
+.broadband{position:relative;width:75px}.hotel-room .broadband
+a{padding:0
+0 1px;color:#666;height:13px;zoom:1}.hotel-room .broadband
+a.free{color:#2DBB55;border-bottom:1px dashed}.hotel-room .broadband:hover
+.tip{display:block}.hotel-room .broadband
+.tip{color:#666;text-align:left;display:none;position:absolute;background:#fffceb;width:80px;border:1px
+solid #ffdbb2;top:26px;left:-3px;padding:8px
+10px;z-index:1;word-break:break-all}.hotel-room .broadband .tip .big-up-arrow{left:5px;position:absolute;top:-12px;border-width:6px;border-style:dashed dashed solid dashed;border-color:transparent transparent #ffdbb2 transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .broadband .tip .small-up-arrow{left:7px;position:absolute;top:-8px;border-width:4px;border-style:dashed dashed solid dashed;border-color:transparent transparent #fffceb transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .broadband .tip
+.title{color:#f60}.hotel-room
+.cancelPolicy{position:relative;width:87px}.hotel-room .cancelPolicy
+a{padding:0
+0 1px;color:#666;border-bottom:1px dashed;zoom:1;height:13px}.hotel-room .cancelPolicy:hover
+.tip{display:block}.hotel-room .cancelPolicy
+.tip{color:#666;text-align:left;display:none;position:absolute;background:#fffceb;width:260px;border:1px
+solid #ffdbb2;top:26px;left:-3px;padding:8px
+10px;z-index:1;word-break:break-all}.hotel-room .cancelPolicy .tip .big-up-arrow{left:5px;position:absolute;top:-12px;border-width:6px;border-style:dashed dashed solid dashed;border-color:transparent transparent #ffdbb2 transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .cancelPolicy .tip .small-up-arrow{left:7px;position:absolute;top:-8px;border-width:4px;border-style:dashed dashed solid dashed;border-color:transparent transparent #fffceb transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .cancelPolicy .tip
+.title{color:#f60}.hotel-room
+.averagePrice{width:167px;color:#f60}.hotel-room .averagePrice
+.text{   -size:12px}.hotel-room .averagePrice
+.unit{margin:0
+2px 0 0;vertical-align:middle;   -weight:bold}.hotel-room .averagePrice
+.digit{   -size:16px;margin:0
+4px 0 0;vertical-align:middle;   -weight:bold}.hotel-room .averagePrice .cash-back-before, .hotel-room .averagePrice .cash-back-after{vertical-align:middle}.hotel-room .averagePrice .cash-back-before{position:relative;border:1px
+solid #2DBB55;padding:0
+2px;line-height:14px;border-radius:2px;color:#2DBB55}.hotel-room .averagePrice .cash-back-before
+.text{margin:0
+3px 0 0}.hotel-room .averagePrice .cash-back-before:hover
+.tip{display:block}.hotel-room .averagePrice .cash-back-before
+.tip{color:#666;text-align:left;display:none;position:absolute;background:#fffceb;width:260px;border:1px
+solid #ffdbb2;top:26px;left:-3px;padding:8px
+10px;z-index:1;word-break:break-all;color:#666}.hotel-room .averagePrice .cash-back-before .tip .big-up-arrow{left:5px;position:absolute;top:-12px;border-width:6px;border-style:dashed dashed solid dashed;border-color:transparent transparent #ffdbb2 transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .averagePrice .cash-back-before .tip .small-up-arrow{left:7px;position:absolute;top:-8px;border-width:4px;border-style:dashed dashed solid dashed;border-color:transparent transparent #fffceb transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .averagePrice .cash-back-before .tip
+.title{color:#f60}.hotel-room .averagePrice .cash-back-after{color:#999}.hotel-room .averagePrice .cash-back-after
+.text{position:relative;border-bottom:1px dashed #999;margin:0
+5px}.hotel-room .averagePrice .cash-back-after .text:hover
+.tip{display:block}.hotel-room .averagePrice .cash-back-after .text
+.tip{color:#666;text-align:left;display:none;position:absolute;background:#fffceb;width:260px;border:1px
+solid #ffdbb2;top:26px;left:-3px;padding:8px
+10px;z-index:1;word-break:break-all}.hotel-room .averagePrice .cash-back-after .text .tip .big-up-arrow{left:5px;position:absolute;top:-12px;border-width:6px;border-style:dashed dashed solid dashed;border-color:transparent transparent #ffdbb2 transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .averagePrice .cash-back-after .text .tip .small-up-arrow{left:7px;position:absolute;top:-8px;border-width:4px;border-style:dashed dashed solid dashed;border-color:transparent transparent #fffceb transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .averagePrice .cash-back-after .text .tip
+.title{color:#f60}.hotel-room
+.preserve{}.hotel-room .preserve .order-btn, .hotel-room .preserve .view-btn, .hotel-room .preserve .login-btn, .hotel-room .preserve .soldOut-btn{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;width:69px;height:24px;text-align:center;line-height:24px;cursor:pointer;position:relative}.hotel-room .preserve .order-btn:hover .tip, .hotel-room .preserve .view-btn:hover .tip, .hotel-room .preserve .login-btn:hover .tip, .hotel-room .preserve .soldOut-btn:hover
+.tip{display:block}.hotel-room .preserve .order-btn .tip, .hotel-room .preserve .view-btn .tip, .hotel-room .preserve .login-btn .tip, .hotel-room .preserve .soldOut-btn
+.tip{color:#666;text-align:left;display:none;position:absolute;background:#fffceb;width:260px;border:1px
+solid #ffdbb2;top:26px;left:-102px;padding:8px
+10px;z-index:1;word-break:break-all;top:33px}.hotel-room .preserve .order-btn .tip .big-up-arrow, .hotel-room .preserve .view-btn .tip .big-up-arrow, .hotel-room .preserve .login-btn .tip .big-up-arrow, .hotel-room .preserve .soldOut-btn .tip .big-up-arrow{left:5px;position:absolute;top:-12px;border-width:6px;border-style:dashed dashed solid dashed;border-color:transparent transparent #ffdbb2 transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .preserve .order-btn .tip .small-up-arrow, .hotel-room .preserve .view-btn .tip .small-up-arrow, .hotel-room .preserve .login-btn .tip .small-up-arrow, .hotel-room .preserve .soldOut-btn .tip .small-up-arrow{left:7px;position:absolute;top:-8px;border-width:4px;border-style:dashed dashed solid dashed;border-color:transparent transparent #fffceb transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .preserve .order-btn .tip .title, .hotel-room .preserve .view-btn .tip .title, .hotel-room .preserve .login-btn .tip .title, .hotel-room .preserve .soldOut-btn .tip
+.title{color:#f60}.hotel-room .preserve .order-btn .tip .big-up-arrow, .hotel-room .preserve .view-btn .tip .big-up-arrow, .hotel-room .preserve .login-btn .tip .big-up-arrow, .hotel-room .preserve .soldOut-btn .tip .big-up-arrow{left:130px}.hotel-room .preserve .order-btn .tip .small-up-arrow, .hotel-room .preserve .view-btn .tip .small-up-arrow, .hotel-room .preserve .login-btn .tip .small-up-arrow, .hotel-room .preserve .soldOut-btn .tip .small-up-arrow{left:132px}.hotel-room .preserve .order-btn{color:#fff;background-color:#f80}.hotel-room .preserve .login-btn, .hotel-room .preserve .view-btn{width:67px;color:#f60;background-color:#fff3e5;border:1px
+solid}.hotel-room .preserve .soldOut-btn{cursor:default}.hotel-room .preserve .prepay, .hotel-room .preserve
+.guarantee{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;margin:0
+4px 0 0;position:relative}.hotel-room .preserve .prepay .tip, .hotel-room .preserve .guarantee
+.tip{color:#666;text-align:left;display:none;position:absolute;background:#fffceb;width:260px;border:1px
+solid #ffdbb2;top:26px;right:3px;padding:8px
+10px;z-index:1;word-break:break-all}.hotel-room .preserve .prepay .tip .big-up-arrow, .hotel-room .preserve .guarantee .tip .big-up-arrow{right:5px;position:absolute;top:-12px;border-width:6px;border-style:dashed dashed solid dashed;border-color:transparent transparent #ffdbb2 transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .preserve .prepay .tip .small-up-arrow, .hotel-room .preserve .guarantee .tip .small-up-arrow{right:7px;position:absolute;top:-8px;border-width:4px;border-style:dashed dashed solid dashed;border-color:transparent transparent #fffceb transparent;   -size:0;width:0;height:0;line-height:0}.hotel-room .preserve .prepay .tip .title, .hotel-room .preserve .guarantee .tip
+.title{color:#f60}.hotel-room .preserve .prepay:hover .tip, .hotel-room .preserve .guarantee:hover
+.tip{display:block}.hotel-room .preserve
+.statusInfo{color:#fb3a3a;   -weight:bold;vertical-align:middle}.hotel-room-current,.hotel-room-plan{position:relative;padding:10px
+0 10px 14px;border-bottom:1px solid #e6e6e6}.hotel-room-current:hover,.hotel-room-plan:hover{background-color:#f5ffde}.hotel-room-current.disabled,.hotel-room-plan.disabled{color:#999 !important}.hotel-room-current.disabled a, .hotel-room-current.disabled span, .hotel-room-plan.disabled a, .hotel-room-plan.disabled
+span{color:#999 !important}.hotel-room-current.disabled .name a, .hotel-room-current.disabled .name span, .hotel-room-plan.disabled .name a, .hotel-room-plan.disabled .name
+span{color:#2DBB55 !important}.hotel-room-current.disabled .averagePrice, .hotel-room-plan.disabled
+.averagePrice{color:#999 !important}.hotel-room-current.disabled .averagePrice .cash-back-before, .hotel-room-plan.disabled .averagePrice .cash-back-before{border-color:#999}.hotel-room-current.disabled .return, .hotel-room-plan.disabled
+.return{border-color:#999 !important}.hotel-room-plan
+.roomType{padding-left:24px;width:208px}.hotel-room-current
+.roomType{width:232px}.hotel-room-detail{padding:10px
+0 10px 10px;background-color:whitesmoke;position:relative}.hotel-room-detail .icon-close{position:absolute;right:10px;top:10px;cursor:pointer}.hotel-room-snap{width:150px;height:100px;overflow:hidden;margin:0
+20px 0 0}.hotel-room-snap
+img{width:100%;height:100%}.hotel-room-desc{margin:-10px 0 0 0}.hotel-room-desc
+.first{width:372px}.hotel-room-desc
+.desc{margin:6px
+0 0 0}.hotel-room-desc .desc
+.key{color:#999}.hotel-room-desc .window-desc
+.value{color:#666}.hotel-room-desc .second .desc
+.key{display:inline-block;*vertical-align:auto;*zoom:1;*display:inline;width:60px}.hotel-room-list.loading{background:url(http://img2.tuniucdn.com/img/20150624/hotel_2016/loading.gif) no-repeat center 10px;height:92px}.hotel-room-list.load_error{text-align:center;line-height:32px;height:32px}.hotel-room-list-bar{padding:0
+0 0 15px;height:32px;line-height:32px}.hotel-room-list-bar
+.text{margin:0
+7px 0 0}.hotel-room-list-bar
+.activity{color:#fb3a3a;cursor:pointer}.hotel-room-list-bar .activity
+.text{margin:0
+8px 0 0}.hotel-room-list-bar
+.news{color:#1278b3;margin:0
+30px 0 0}.hotel-room-list-bar .toggle-all-room-plans{color:#1278b3;cursor:pointer;margin:0
+5px 0 0}.hotel-room-list-bar .toggle-all-room-plans
+i{margin:0
+0 0 5px}.hotel-room-list-bar .toggle-all-room-plans .to-expand{display:block}.hotel-room-list-bar .toggle-all-room-plans .to-collapse{display:none}.all-room-plans-expanded .toggle-all-room-plans .to-expand{display:none}.all-room-plans-expanded .toggle-all-room-plans .to-collapse{display:block}.hl_modu{margin-top:20px;border:1px
+solid #e6e6e6;background-color:#fff}.hl_modu_hd{height:46px;color:#666;line-height:46px;text-indent:15px;   -size:16px;   -weight:bold}.hl_modu_hd
+label{padding-bottom:10px;border-bottom:3px solid #2DBB55;   -size:16px}.hl_modu_item{padding:9px
+0 6px;border-top:1px solid #ebebeb}.hl_modu_name
+a{color:#808080;   -weight:bold}.hl_modu_info{line-height:24px;color:#808080}.hl_modu_distance{float:left;display:inline}.hl_modu_name{line-height:22px}.hl_modu_price{float:right;display:inline;text-align:right;color:#f60;margin-left:5px}.hl_modu_price
+strong{color:#f60;   -weight:bold;   -size:16px}.hl_side{position:relative;width:280px}.hl_side_no_map{padding-top:33px}.side_map{width:277px;border:1px
+solid #e6e6e6;background:#fff;z-index:1}.side_map_fixed{position:fixed;top:0}.side_map_hd{height:40px;border-bottom:1px solid #e6e6e6;line-height:40px}.hl_side_no_map
+.side_map_hd{border:none}.side_map_btn_float{float:left;width:90px;text-align:center;padding:0
+10px;color:#666;border-right:1px solid #eee}.side_map_btn_float
+.icon{margin-right:5px}.side_map_btn_float .icon-square{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline}.side_map_btn_float .icon-check-square{display:none}.side_map_btn_float.checked{color:#f80}.side_map_btn_float.checked .icon-square{display:none}.side_map_btn_float.checked .icon-check-square{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline}.ie .side_map_btn_float
+.text{vertical-align:middle}.side_map_btn_toggle{float:right;width:64px;padding:0
+10px;text-align:center;color:#2DBB55;background:#fff;border-left:1px solid #eee}.side_map_btn_toggle.on{background:#2DBB55;color:#fff}.side_map_outer{position:relative;height:336px}.side_map_inner{position:relative;height:100%;background:#ccc}.side_map_view{position:absolute;width:80px;height:40px;top:-40px;right:88px}.side_map_view
+a{display:block;width:100%;height:40px;color:#2DBB55;line-height:40px;text-align:center}.hl_relative,.hl_nearby{padding-bottom:10px}.hl_relative .hl_modu_hd,
+.hl_nearby
+.hl_modu_hd{height:41px;line-height:41px;   -size:14px}.hl_most
+.hl_modu_hd{height:36px;line-height:41px;   -size:14px}.hl_relative .hl_modu_body,
+.hl_most .hl_modu_body,
+.hl_nearby
+.hl_modu_body{padding:0
+11px}.hl_side .hl_most
+.hl_modu_body{padding:0
+0;margin-top:6px}.hl_side .hl_most .hl_modu_body
+li{border-top:1px solid #e6e6e6;padding:10px}.hl_modu_body .pic
+img{width:80px;height:80px}.landmark{margin-bottom:10px;padding:0
+8px 10px 8px;border:1px
+solid #eaeaea;border-top:2px solid #2DBB55;background:#fff}.landmark
+.tit{border-bottom:1px solid #E7E7E7;color:#818080;   -size:14px;   -weight:bold;height:39px;line-height:39px;padding-left:10px;margin-bottom:10px}.landmark
+dl{position:relative;height:21px;overflow:hidden;padding:5px
+0 5px 10px}.landmark
+dl.down{height:auto}.landmark
+dd{color:#999;padding-left:196px}.landmark
+dt{position:absolute;left:10px;top:5px;white-space:nowrap;overflow:hidden;   -size:14px;   -weight:bold;color:#666}.landmark dd
+a{display:inline-block;width:90px;margin:0
+20px 5px 0;color:#999;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.index1200 .landmark dd
+a{width:119px}.landmark dd a:hover{color:#666}.landmark
+.toggle{position:absolute;top:10px;right:0;width:10px;height:10px;overflow:hidden;border:1px
+solid #ccc;cursor:pointer}.landmark .toggle .across,
+.landmark .toggle
+.hhll{position:absolute;top:50%;left:50%;display:block;overflow:hidden;background-color:#ccc}.landmark .toggle
+.across{width:7px;height:1px;margin-left:-3px}.landmark .toggle
+.hhll{width:1px;height:7px;margin-top:-3px}.price-calendar-wrap{position:fixed;z-index:99}.price-calendar-wrap .big-up-arrow{position:absolute;top:-14px;border-width:7px;border-style:dashed dashed solid dashed;border-color:transparent transparent #ddd transparent;   -size:0;width:0;height:0;line-height:0;top:-13px;left:25px}.price-calendar-wrap .small-up-arrow{position:absolute;top:-12px;border-width:6px;border-style:dashed dashed solid dashed;border-color:transparent transparent #fff transparent;   -size:0;width:0;height:0;line-height:0;top:-11px;left:26px}.price-calendar{max-width:470px;color:#999}.price-calendar-header{*zoom:1;border:1px
+solid #ddd;border-right:none;background:#fafafa}.price-calendar-header:after{content:"\0020";display:block;height:0;clear:both;overflow:hidden;visibility:hidden}.price-calendar-header .price-day{float:left;display:inline;width:65px;border-right:1px solid #ddd;text-align:center;line-height:30px}.price-calendar-content{*zoom:1;background:#fff;border-left:1px solid #ddd}.price-calendar-content:after{content:"\0020";display:block;height:0;clear:both;overflow:hidden;visibility:hidden}.price-calendar-content .price-calendar-info{float:left;display:inline;text-align:center;width:65px;height:66px;line-height:22px;padding:0;border-right:1px solid #ddd;border-bottom:1px solid #ddd}.price-calendar-content .price-calendar-info
+.date{   -family:tahoma,arial}.price-calendar-content .price-calendar-info
+.price{   -size:14px;color:#f60;   -family:tahoma,arial}.price-calendar-content .price-calendar-info .price
+.unit{   -family:arial}.price-calendar-content .price-calendar-info
+.bookMsg{line-height:40px;white-space:nowrap;overflow:hidden;-ms-text-overflow:ellipsis;-o-text-overflow:ellipsis;text-overflow:ellipsis}.price-calendar-footer{border:1px
+solid #ddd;border-top:none;padding:10px;background:#fff;word-wrap:break-word;display:none}.hotel-mask{position:fixed;left:0;right:0;bottom:0;top:0;background-color:#252423;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=70);opacity:0.7;z-index:1001}.hotel-gallery-wrap{position:fixed;width:895px;height:392px;border:6px
+solid #c7c7c7;left:50%;margin-left:-465px;top:50%;margin-top:-235px;background-color:#fff;z-index:1002;padding:30px
+20px 10px;*zoom:1;background:#fff}.hotel-gallery-wrap:after{content:"\0020";display:block;height:0;clear:both;overflow:hidden;visibility:hidden}.hotel-gallery-wrap .close-btn{position:absolute;right:10px;top:10px;cursor:pointer}.hotel-gallery-main{margin-right:20px;float:left;display:inline}.hotel-gallery-content{position:relative;overflow:hidden;width:555px;height:346px}.hotel-gallery-content
+.gallery{height:100%;position:relative;left:0;*zoom:1}.hotel-gallery-content .gallery:after{content:"\0020";display:block;height:0;clear:both;overflow:hidden;visibility:hidden}.hotel-gallery-content .gallery
+.slide{width:555px;height:100%;float:left;display:inline;text-align:center;overflow:hidden}.hotel-gallery-content .gallery .slide
+img{width:auto;height:100%}.hotel-gallery-content .prev-area, .hotel-gallery-content .next-area{position:absolute;left:0;right:auto;top:0;height:100%;width:100px;cursor:pointer;background:url(/site/css/hotel_2016/list/about:blank)}.hotel-gallery-content .next-area{left:auto;right:0}.hotel-gallery-content .prev-btn, .hotel-gallery-content .next-btn{position:absolute;width:40px;height:50px;top:50%;left:0;right:auto;margin-top:-25px}.hotel-gallery-content .next-btn{left:auto;right:0}.hotel-gallery-side{float:left;display:inline;width:320px}.hotel-gallery-tabs{border-bottom:1px solid #dfdfdf;padding-bottom:10px;*zoom:1}.hotel-gallery-tabs:after{content:"\0020";display:block;height:0;clear:both;overflow:hidden;visibility:hidden}.hotel-gallery-tabs .hotel-gallery-tab{float:left;display:inline;width:60px;height:25px;line-height:25px;text-align:center;display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;cursor:pointer}.hotel-gallery-tabs .hotel-gallery-tab.on{background-color:#2DBB55;color:#fff}.hotel-gallery-separator{float:left;display:inline;line-height:25px;margin:0
+10px;color:#dadada}.hotel-gallery-panel{width:320px;height:309px;overflow:auto;position:relative;*zoom:1}.hotel-gallery-panel:after{content:"\0020";display:block;height:0;clear:both;overflow:hidden;visibility:hidden}.hotel-gallery-panel .hotel-gallery-pic{float:left;display:inline;position:relative;overflow:hidden;width:90px;height:90px;margin:10px
+7px 0 0;border:2px
+solid transparent}.hotel-gallery-panel .hotel-gallery-pic.current{border-color:#2DBB55}.hotel-gallery-panel .hotel-gallery-pic
+img{width:100%;min-height:100%;clip:rect(0,90px,90px,0);position:absolute}.hotel-gallery-footer{margin-top:10px;   -size:14px}#main-map-container{position:fixed;z-index:1002;left:50%;top:50%;margin-left:-300px;margin-top:-225px;width:600px;height:450px;background:#fafafa;border:1px
+solid #ccc}#main-map-container .map-header{position:relative;height:26px;line-height:26px}#main-map-container .map-header .map-title{padding:0
+0 0 10px;   -weight:bold;letter-spacing: .2em}#main-map-container .map-header .close-btn{position:absolute;   -size:16px;cursor:pointer;right:0;padding:0
+10px}#main-map{width:100%;height:400px}.xubox_shade,.xubox_layer{z-index:10003 !important}.hotel-brief .down-payment{display:inline-block;position:relative;width:120px;height:29px;background-color:#43B313;color:#FFF;   -size:14px;line-height:31px;   -weight:700}.hotel-brief .down-payment:after{content:'';display:inline-block;position:absolute;border-right:60px solid transparent;border-left:60px solid transparent;border-top:12px solid #43B313;left:1px;top:29px}.nameAndIcon
+.preferred{display:inline-block;vertical-align:middle;padding-left:2px;width:58px;height:19px;line-height:19px;color:#fff;background-color:#ff765b;border:0px
+solid;border-radius:2px;margin-left:2px;margin-top:1.5px}.nameAndIcon
+.level{margin-right:7px}.roomType
+.downPayment{padding-left:3px;width:47px;height:16px;line-height:15.5px;background-color:#FF923B;border:0px
+solid;border-radius:2px;display:inline-block;vertical-align:middle;position:relative}.roomType .downPayment .tip
+.msg{line-height:19px;margin-top:5px}.roomType .downPayment:hover{cursor:default}.roomType .downPayment:hover
+.tip{display:block;top:23px;left:14px}.downPayment span.icon-downPayment{color:#fff !important}.icon-wifi,.icon-restaurant,.icon-parking,.icon-pickup,.icon-change-wash,.icon-pet,.icon-swimming-pool,.icon-gym,.icon-conference-room,.icon-spa,.icon-bus,.icon-allDay-of-hot-water{background-image:url(http://img2.tuniucdn.com/img/20150624/hotel_2016/list/hotel-facility.png);background-repeat:no-repeat}.icon-wifi{background-position:-168px 0;height:24px;width:24px}.icon-restaurant{background-position:-432px 0;height:24px;width:24px}.icon-parking{background-position:-192px 0;height:24px;width:24px}.icon-pickup{background-position:-240px 0;height:24px;width:24px}.icon-change-wash{background-position:-312px 0;height:24px;width:24px}.icon-pet{background-position:-384px 0;height:24px;width:24px}.icon-swimming-pool{background-position:-336px 0;height:24px;width:24px}.icon-gym{background-position:-96px 0;height:24px;width:24px}.icon-conference-room{background-position:-552px 0;height:24px;width:24px}.icon-spa{background-position:-72px 0;height:24px;width:24px}.icon-bus{background-position:-408px 0;height:24px;width:24px}.icon-allDay-of-hot-water{background-position:-504px 0;height:24px;width:24px}.satisfaction .icon-tip:hover
+.tip{display:inline-block}.satisfaction .icon-tip{position:relative}.satisfaction
+.tip{display:none;width:231px;position:absolute;background:#fff;left:0px;   -style:normal;top:24px;border:1px
+solid #ffdbb2;padding:8px;z-index:11}.satisfaction .big-up-arrow{position:absolute;border-width:7px;border-style:dashed dashed solid dashed;border-color:transparent transparent #ffdbb2 transparent;   -size:0;width:0;height:0;line-height:0;top:-15px;left:4px}.satisfaction .small-up-arrow{position:absolute;border-width:6px;border-style:dashed dashed solid dashed;border-color:transparent transparent #fffceb transparent;   -size:0;width:0;height:0;line-height:0;top:-12px;left:5px}.satisfaction .icon-tip ul
+li{margin-right:7px;line-height:20px;   -size:14px;width:105px}.satisfaction .icon-tip ul li
+.score{color:#fe9010}

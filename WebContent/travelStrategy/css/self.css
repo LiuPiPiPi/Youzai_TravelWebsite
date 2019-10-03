@@ -1,0 +1,186 @@
+
+
+.descript {
+	color:#222;
+}
+
+
+.middle-main {
+	height: 100%;
+	margin-left:115px;
+	margin-right: 0;
+	background-color: #EEE;
+}
+
+.middle_main .main-sect{
+	margin-left: 200px;
+}
+[_nghost-deepmind-website-c2]{
+	display:block;position:relative
+	}
+header[_ngcontent-deepmind-website-c2]{
+	background-color:	#4169E1;height:60px;width:100%
+}
+@media (min-width:768px)
+{
+	header[_ngcontent-deepmind-website-c2]{
+		height:70px
+	}
+}
+header[_ngcontent-deepmind-website-c2]::after{
+	background-color:	#4169E1;
+	content:"";
+	height:100%;
+	position:absolute;
+	right:0;
+	top:0;
+	transition:right .3s ease,width .3s ease;
+	width:0;
+	z-index:34
+}
+header.is-peaking[_ngcontent-deepmind-website-c2]::after{
+	right:-10px;
+	width:10px
+}
+.header-container[_ngcontent-deepmind-website-c2]{
+	background-color:	#4169E1;
+	display:flex;
+	flex-direction:column;
+	height:inherit;
+	justify-content:space-between;
+	left:0;
+	padding:0 20px;
+	position:fixed;
+	top:0;
+	width:140px;
+	z-index:35
+}
+header.is-menu-open[_ngcontent-deepmind-website-c2]   .header-container[_ngcontent-deepmind-website-c2]{
+	width:100%
+}
+.header-container[_ngcontent-deepmind-website-c2]  ul[_ngcontent-deepmind-website-c2]{
+	list-style:none;
+	margin:0;
+	padding:0
+}
+.menu-wrapper[_ngcontent-deepmind-website-c2]{
+	display:flex;
+	height:100%
+}
+@media (min-width:1024px){
+	header[_ngcontent-deepmind-website-c2]{
+		height:100%;width:100px
+	}
+.header-container[_ngcontent-deepmind-website-c2]{
+	height:100%;
+	padding:30px 20px
+}
+header.is-menu-open[_ngcontent-deepmind-website-c2]  .header-container[_ngcontent-deepmind-website-c2]{
+	width:100px
+}
+.menu-wrapper[_ngcontent-deepmind-website-c2]{
+	flex-direction:column;
+	height:auto
+}
+}
+.menu-header[_ngcontent-deepmind-website-c2]{
+	align-items:center;
+	display:flex;
+	justify-content:space-between;
+	width:100%
+}
+.menu-header[_ngcontent-deepmind-website-c2]  .logo[_ngcontent-deepmind-website-c2]{
+	display:block;
+	margin:0
+}
+.menu-header[_ngcontent-deepmind-website-c2]   .logo[_ngcontent-deepmind-website-c2]   svg[_ngcontent-deepmind-website-c2]{
+	display:block;
+	height:40px;
+	width:170px
+}
+.menu-header[_ngcontent-deepmind-website-c2]   .logo[_ngcontent-deepmind-website-c2]   svg.full-logo[_ngcontent-deepmind-website-c2]{
+	width:184px}
+.menu-header[_ngcontent-deepmind-website-c2]   .menu-controls[_ngcontent-deepmind-website-c2]{
+	align-items:center;display:flex;flex-direction:row-reverse}
+	.menu-header[_ngcontent-deepmind-website-c2]   .menu-controls[_ngcontent-deepmind-website-c2]   button[_ngcontent-deepmind-website-c2] + button[_ngcontent-deepmind-website-c2]{
+		display:block;margin:0 20px 0 0}
+nav[_ngcontent-deepmind-website-c2]{
+	display:none}
+@media (min-width:1024px){
+	.menu-header[_ngcontent-deepmind-website-c2]{
+		display:block}
+	.menu-header[_ngcontent-deepmind-website-c2]   .logo[_ngcontent-deepmind-website-c2]{
+		margin-bottom:30px}
+	.menu-header[_ngcontent-deepmind-website-c2]   .logo[_ngcontent-deepmind-website-c2]   svg[_ngcontent-deepmind-website-c2]{
+		width:40px}
+	.menu-header[_ngcontent-deepmind-website-c2]   .menu-controls[_ngcontent-deepmind-website-c2]{
+		display:flex;flex-direction:column;margin-bottom:30px;width:38px}
+	.menu-header[_ngcontent-deepmind-website-c2]   .menu-controls[_ngcontent-deepmind-website-c2]   button[_ngcontent-deepmind-website-c2] + button[_ngcontent-deepmind-website-c2]{
+		margin:30px 0 0}
+	nav[_ngcontent-deepmind-website-c2]{
+		display:flex}
+	header.is-menu-open[_ngcontent-deepmind-website-c2]   nav[_ngcontent-deepmind-website-c2]{
+		align-items:center;height:100%;justify-content:center}
+	header.is-menu-open[_ngcontent-deepmind-website-c2]   .pages[_ngcontent-deepmind-website-c2]{
+		display:flex;flex-direction:row-reverse;-webkit-transform:rotateZ(-90deg);transform:rotateZ(-90deg)}}
+.pages[_ngcontent-deepmind-website-c2]{
+	display:block;width:100%}
+header.is-menu-open[_ngcontent-deepmind-website-c2]   .pages[_ngcontent-deepmind-website-c2]{
+	width:auto}
+.pages[_ngcontent-deepmind-website-c2]   li[_ngcontent-deepmind-website-c2]   a[_ngcontent-deepmind-website-c2]{
+	cursor:pointer;position:relative}
+.pages[_ngcontent-deepmind-website-c2]   li[_ngcontent-deepmind-website-c2]   a[_ngcontent-deepmind-website-c2]::before{
+	border-left:6px solid transparent;content:"";display:block;height:100%;left:-20px;position:absolute;top:0}
+.pages[_ngcontent-deepmind-website-c2]   li[_ngcontent-deepmind-website-c2]   a[_ngcontent-deepmind-website-c2]:focus::before, .pages[_ngcontent-deepmind-website-c2]   li[_ngcontent-deepmind-website-c2]   a[_ngcontent-deepmind-website-c2]:hover::before, 
+.pages[_ngcontent-deepmind-website-c2]   li.is-active[_ngcontent-deepmind-website-c2]   a[_ngcontent-deepmind-website-c2]::before{
+	border-color:#fff}
+.page-link[_ngcontent-deepmind-website-c2]{
+	border-top:1px solid rgba(255,255,255,.2);display:block;padding:10px 0}
+
+.page-link.nav-cta[_ngcontent-deepmind-website-c2],
+.page-link.nav-cta[_ngcontent-deepmind-website-c2]:focus, 
+.page-link.nav-cta[_ngcontent-deepmind-website-c2]:hover{
+
+	color:#fff}
+.social-media-wrapper[_ngcontent-deepmind-website-c2]{
+	display:none}
+@media (min-width:1024px){
+	.social-media-wrapper[_ngcontent-deepmind-website-c2]{
+		align-items:center;display:flex;flex-direction:column;width:38px}}
+		.social-media-wrapper[_ngcontent-deepmind-website-c2]   li[_ngcontent-deepmind-website-c2] + li[_ngcontent-deepmind-website-c2]{
+			margin-top:10px}
+		.social-media-wrapper[_ngcontent-deepmind-website-c2]   svg[_ngcontent-deepmind-website-c2]{
+			height:20px;width:20px}
+		.hamburger-menu[_ngcontent-deepmind-website-c2]{
+			cursor:pointer;display:block;height:18px;position:relative;width:22px}
+@media (hover:hover){
+	.hamburger-menu[_ngcontent-deepmind-website-c2]:focus   span[_ngcontent-deepmind-website-c2]:nth-child(2), 
+	.hamburger-menu[_ngcontent-deepmind-website-c2]:hover   span[_ngcontent-deepmind-website-c2]:nth-child(2){
+		-webkit-transform:scaleX(.5);transform:scaleX(.5)}
+}
+.hamburger-menu[_ngcontent-deepmind-website-c2]   span[_ngcontent-deepmind-website-c2]{
+	background-color:#fff;
+	display:block;
+	height:2px;
+	margin:0;
+	position:absolute;
+	-webkit-transform-origin:center;
+	transform-origin:center;
+	transition:width .2s ease,-webkit-transform .3s ease;transition:transform .3s ease,width .2s ease;
+	transition:transform .3s ease,width .2s ease,-webkit-transform .3s ease;width:100%
+}
+.hamburger-menu[_ngcontent-deepmind-website-c2]   span[_ngcontent-deepmind-website-c2]:first-child{
+	top:0
+}
+.hamburger-menu[_ngcontent-deepmind-website-c2]   span[_ngcontent-deepmind-website-c2]:nth-child(2){
+	top:8px
+}
+.hamburger-menu[_ngcontent-deepmind-website-c2]   span[_ngcontent-deepmind-website-c2]:last-child{
+	bottom:0
+}
+.hamburger-menu.is-active[_ngcontent-deepmind-website-c2]   span[_ngcontent-deepmind-website-c2]:first-child{
+	-webkit-transform:translateY(8px) rotate(45deg);transform:translateY(8px) rotate(45deg);width:23px}
+@media (min-width:1024px){
+	.hamburger-menu[_ngcontent-deepmind-website-c2]{width:30px}
+	.hamburger-menu.is-active[_ngcontent-deepmind-website-c2]   span[_ngcontent-deepmind-website-c2]:first-child{
+		width:29px}}.hamburger-menu.is-active[_ngcontent-deepmind-website-c2]   span[_ngcontent-deepmind-website-c2]:nth-child(2){width:0}.hamburger-menu.is-active[_ngcontent-deepmind-website-c2]   span[_ngcontent-deepmind-website-c2]:last-child{-webkit-transform:translateY(-8px) rotate(-45deg);transform:translateY(-8px) rotate(-45deg);width:23px}.search[_ngcontent-deepmind-website-c2]{text-align:center}.search.no-focus[_ngcontent-deepmind-website-c2]:focus   g[_ngcontent-deepmind-website-c2]{-webkit-transform:none;transform:none}.search[_ngcontent-deepmind-website-c2]:focus   g[_ngcontent-deepmind-website-c2], .search[_ngcontent-deepmind-website-c2]:hover   g[_ngcontent-deepmind-website-c2]{-webkit-transform:scale(1.2);transform:scale(1.2)}@media (hover:none){.search.no-focus[_ngcontent-deepmind-website-c2]:focus   g[_ngcontent-deepmind-website-c2], .search.no-focus[_ngcontent-deepmind-website-c2]:hover   g[_ngcontent-deepmind-website-c2], .search[_ngcontent-deepmind-website-c2]:focus   g[_ngcontent-deepmind-website-c2], .search[_ngcontent-deepmind-website-c2]:hover   g[_ngcontent-deepmind-website-c2]{-webkit-transform:none;transform:none}}.search[_ngcontent-deepmind-website-c2]   svg[_ngcontent-deepmind-website-c2]{height:22px;vertical-align:middle;width:22px}@media (min-width:1024px){.hamburger-menu.is-active[_ngcontent-deepmind-website-c2]   span[_ngcontent-deepmind-website-c2]:last-child{width:29px}.search[_ngcontent-deepmind-website-c2]   svg[_ngcontent-deepmind-website-c2]{height:28px;width:30px}}.search[_ngcontent-deepmind-website-c2]   svg[_ngcontent-deepmind-website-c2]   g[_ngcontent-deepmind-website-c2]{transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease,-webkit-transform .3s ease}.search[_ngcontent-deepmind-website-c2]   svg[_ngcontent-deepmind-website-c2]   g[_ngcontent-deepmind-website-c2]   [_ngcontent-deepmind-website-c2]:first-child{fill:#0053d6}

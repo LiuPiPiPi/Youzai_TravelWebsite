@@ -1,0 +1,443 @@
+img {
+  max-width: 100%;
+}
+
+.site-header {
+  position: relative;
+}
+
+/*网站头标题兰和图标 设置居中*/
+.site-header .mdl-layout__header-row {
+  padding: 0;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+/*大标题的字体大小和图片位置*/
+.site-description {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+/*下拉后网站头标题兰留一小部分（留下图标）*/
+.is-compact .mdl-layout__title span {
+  display: none;
+}
+
+/*网站头标题高度*/
+.site-logo-row {
+  min-height: 200px;
+}
+/*网站头标题高度*/
+.is-compact .site-logo-row {
+  min-height: auto;
+}
+
+/*标题logo图标 图片大小*/
+.site-logo {
+  background: url(../img/site-logo.png) 50% no-repeat;
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+  margin: 15px auto;
+}
+/*下拉后 标题logo变小 compact小型的*/
+.is-compact .site-logo {
+  height: 50px;
+  width: 50px;
+  margin: 7px auto;
+}
+
+/*标题栏下面的选项导航 颜色和字体*/
+.site-navigation-row {
+  background-color: rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+  height: 45px;
+}
+
+/*标题栏下面的选项导航 设置居中格式 和宽度等等*/
+.site-navigation-row .mdl-navigation {
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+}
+/*标题栏下面的选项导航 设置字体颜色*/
+.site-navigation-row .mdl-navigation__link {
+  -ms-flex: 1;
+  flex: 1;  /*是否适应宽度？*/
+  line-height: 42px;
+  color: #fff;
+}
+
+/*未知 可能是是否隐藏标题下的导航*/
+.tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+.site-navigation-row .is-active {
+  position: relative;
+  font-weight: bold;
+  opacity: 0;
+}
+
+.site-navigation-row .mdl-navigation__link:hover {
+  opacity: 1;
+}
+
+.mdl-layout__header .mdl-layout__drawer-button {
+  color: #fff;
+}
+
+/*紧挨标题下方的背景颜色*/
+.mdl-layout__content {
+  background-color: #fefefe;
+}
+
+/*标题栏和下面图片的间隔*/
+.site-content {
+  margin: 1em auto;
+  min-height: 80px; /*用处？*/
+}
+
+/*属性设置元素的下内边距(底部空白)*/
+.page-content {
+  padding-bottom: 2em;
+}
+
+/*标题下方的网页内容的宽度 更改为左侧留下10% 而不是居中了*/
+.site-max-width {
+/*	网页主要成分 左中侧*/
+/*    width: 1200px;*/
+	margin-right: 10px;
+    min-width: 1200px;
+	max-width: 1500px;
+	float: left;
+}
+
+/*补充右侧界面*/
+.site-right-width{
+/*  max-width: 300px;*/
+  margin-right: 10%;
+	
+	flex: 1;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 1;
+	width:300px
+}
+
+/*详细页面文字的宽度 最宽900*/
+.site-copy {
+  max-width: 900px;
+}
+
+/*设置welcome图片 和大小,设置字体颜色*/
+.welcome-card > .mdl-card__title {
+  color: #FFFEFE;
+  height: 290px;
+  background: url("../img/cover.jpg") center/cover;/*设置图片自适应大小*/
+}
+
+/*右下角事件卡片背景颜色*/
+.event-card {
+  background: #3E4EB8;
+}
+
+/*右下角事件卡片边界颜色*/
+.event-card .mdl-card__actions {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/*事件卡片文字居中*/
+.event-card .mdl-card__title {
+  -ms-flex-align: start;
+      align-items: flex-start;
+}
+
+/*和上边界的举例*/
+.event-card .mdl-card__title > h4 {
+  margin-top: 0;
+}
+/*？可能是动作？自适应大小？*/
+.event-card .mdl-card__actions {
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+/*addtoCalender按钮 右边界缩进*/
+.event-card .mdl-card__actions > .material-icons {
+  padding-right: 10px;
+}
+
+/*事件卡片两个文字 一个图片设置白色*/
+.event-card .mdl-card__title,
+.event-card .mdl-card__actions,
+.event-card .mdl-card__actions > .mdl-button {
+  color: #fff;
+}
+
+/*音乐播放，设置居中，最小高度*/
+.section__play-btn {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+/*	-ms-flex-也是居中 为了补充适应浏览器##*/
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 150px;
+}
+
+/*音乐播放图标的大小？？这个播放按钮不是图片吗*/
+.section__play-btn .material-icons {
+  font-size: 5rem;
+}
+
+/*音乐播放和下面图片的间距*/
+.section--center {
+  margin: 0 auto 1rem;
+}
+
+/*查看所有（portfolio）按钮 设置居中*/
+.homepage-portfolio .mdl-button {
+  margin: 0 auto;
+}
+
+/*查看portfolio 下方的页面背景颜色，和向下缩进*/
+.homepage-footer {
+  background: #eee;
+  margin-bottom: -1em;
+  padding: 2rem 0; /*padding补充距离*/
+}
+
+/*portfolio界面 图片标题和文字的间隔填充*/
+.portfolio-card .mdl-card__title {
+  padding-bottom: 0;
+}
+
+/*文章详情界面 图片大小*/
+img.article-image {
+  width: 100%;
+  height: auto;
+}
+
+.author-image{
+	width: 50%;
+
+	height:40px;
+}
+/*portfolio界面 图片大
+小*/
+img.card-image-small {
+	float: left;
+/*	width:40%;*/
+	
+	width:333.33px;
+	height:249.6px;
+	
+	padding-left: 0.1px;
+	padding-top: 0.1px;
+    border-radius: 5px;
+}
+/*.demo 在about界面中 适配大小*/
+.demo-card-image.mdl-card {
+/*
+  width: 192px;
+  height: 192px;
+*/
+	width:50%;
+	height:10px;
+	padding-left:10px;
+
+}
+
+/*在about界面的用户头像？？*/
+.person1 {
+  background: url("../img/person1.jpg") center/cover;
+}
+
+.person2 {
+  background: url("../img/person2.jpg") center/cover;
+}
+
+/*在about界面的用户头像下方的 黑色遮罩和大小  > 应该是内部的意思*/
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/*aoubt 用户名字大小和颜色*/
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*contact 输入栏的宽度 */
+.form-contact .mdl-textfield {
+  width: 100%;
+}
+
+/*右侧 联系方式 */
+#contact-button {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  z-index: 900;
+}
+
+/*全部的页脚 字体大小*/
+footer .mdl-logo a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted #aaa;
+}
+/*页脚设置居中*/
+.footer-container {
+  margin: 0 auto;
+}
+
+/*游记列表图片居中一些*/
+.divCenter{
+		margin-left: 0px;
+		margin-top: 0%;
+    }
+
+/*	游记之间的垂直距离*/
+.divMargin{
+	margin-top:30px;
+}
+
+.h3c {
+	font-size: 25px;
+	line-height: 20px;
+	font-weight: 500;
+/*		修改 line height 40px->20px
+		font size 34->25
+		增加 font-style
+		*/
+}
+
+.leftArea {
+	width:60%;
+/*	min-width: 800px;*/
+/*	修改固定800px 不是百分比了*/
+	margin-left: 10%;
+	display: inline-block;
+	float: left;
+
+	
+	
+}
+
+.rightArea {
+	width:10%;
+/*	block会适应为右侧！*/
+/*	display: block;*/
+	padding-left:40px;
+	padding-top: 110px;
+	padding-right: 10px;
+	float: left;
+
+}
+
+.authorPadding {
+	padding-left: 17px;
+    padding-top: 15px;
+    padding-right: 10px;
+	display: block;
+}
+
+.MyCentericon{
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
+	
+}
+.card-DescriptLeft { 
+/*	游记下方信息*/
+  float: left;
+  margin-left: 15px;
+}
+
+/*首页游记下方作者颜色*/
+.l-blue {
+  color: #2962ff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mb-10 {
+	 margin-bottom:10px; 
+}
+
+
+
+.post-mate {
+		margin-bottom: 10px;
+		float: left;
+	}
+
+.DescriptRight {
+	  float: right;
+  margin-left: 15px;
+}
+
+.youji-card-mainText {
+	padding-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 5px;
+	font-size: 18px;
+  	font-weight: 400;
+	text-indent: 2em;
+}
+
+
+
+.youji-card-table {
+	display: inline-block;
+/*	width:500px;*/
+	float: left;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+	width: 55%;
+    display: table;
+
+}
+
+hrc {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0em 0em;
+	padding: 0;
+}
+
+.card-smallIcon {
+	position: relative;
+	z-index: 1;
+	vertical-align: middle;
+	display: inline-block;
+	height: 20px;
+	margin: 0;
+	padding-bottom:5px;
+}
